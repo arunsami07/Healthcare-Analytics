@@ -1,0 +1,501 @@
+patient_id,appointment_id,appointment_date,scheduled_date,no_show,age,gender,zip_code,disease_type,doctor_id,doctor_specialty,length_of_stay,bed_id,bed_ward,insurance_status,claim_amount,claim_date,covid_test_result,covid_test_date,medical_test_type,test_result_value,satisfaction_score,readmitted_within_30_days,doctor_rating,hospital_name,state
+PID0001,AID0001,2025-07-06,2025-06-08,No,4,Other,53263,Diabetes,DID008,Cardiology,3,BID0189,ICU,Uninsured,37292.72,2025-07-28,Negative,2025-07-22,Ultrasound,6.62,1,Yes,2,Hospital 9,West Bengal
+PID0002,AID0002,2025-07-16,2025-06-29,Yes,26,Other,40876,Cancer,DID023,Oncology,7,BID0057,Surgery,Uninsured,14631.34,2025-07-24,Negative,2025-07-07,MRI,10.62,6,No,2,Hospital 6,Maharashtra
+PID0003,AID0003,2025-07-22,2025-07-13,Yes,13,Female,40474,Diabetes,DID020,Pulmonology,13,BID0012,Surgery,Uninsured,7116.48,2025-08-01,Negative,2025-07-07,Blood Test,8.5,10,No,3,Hospital 10,Tamil Nadu
+PID0004,AID0004,2025-07-13,2025-07-05,No,6,Other,13434,Flu,DID025,Pulmonology,2,BID0060,ICU,Private,14620.71,2025-07-10,Negative,2025-06-28,X-ray,2.86,6,No,3,Hospital 2,West Bengal
+PID0005,AID0005,2025-08-07,2025-07-05,No,69,Other,08551,Flu,DID006,Endocrinology,7,BID0070,General,Uninsured,16889.85,2025-07-24,Negative,2025-06-04,Blood Test,3.82,1,No,4,Hospital 5,Maharashtra
+PID0006,AID0006,2025-07-19,2025-06-30,No,73,Other,25893,Diabetes,DID007,Endocrinology,7,BID0165,Surgery,Public,13979.13,2025-07-23,Negative,2025-06-04,Ultrasound,8.32,10,No,5,Hospital 7,Karnataka
+PID0007,AID0007,2025-08-06,2025-07-29,No,18,Other,99244,Hypertension,DID003,General,14,BID0029,General,Uninsured,8839.12,2025-07-31,Negative,2025-07-21,Ultrasound,1.42,7,No,4,Hospital 9,Karnataka
+PID0008,AID0008,2025-07-24,2025-06-12,No,2,Other,43300,Cancer,DID004,Oncology,13,BID0069,Pediatrics,Public,15381.51,2025-07-12,Negative,2025-06-07,Blood Test,14.33,5,No,2,Hospital 9,Maharashtra
+PID0009,AID0009,2025-07-18,2025-06-18,No,39,Other,45757,Asthma,DID020,Cardiology,3,BID0096,General,Uninsured,47721.49,2025-07-29,Negative,2025-07-13,Blood Test,9.18,8,Yes,3,Hospital 5,Tamil Nadu
+PID0010,AID0010,2025-07-27,2025-06-25,Yes,73,Male,06708,COVID-19,DID024,Endocrinology,14,BID0018,General,Public,33327.79,2025-07-12,Negative,2025-06-26,MRI,4.34,10,No,2,Hospital 9,Gujarat
+PID0011,AID0011,2025-07-24,2025-07-12,No,40,Female,30308,Cancer,DID021,Pulmonology,8,BID0133,Surgery,Public,13147.38,2025-08-01,Positive,2025-07-17,Blood Test,9.03,4,No,1,Hospital 2,Gujarat
+PID0012,AID0012,2025-07-26,2025-07-18,No,30,Male,71097,COVID-19,DID028,Pulmonology,2,BID0132,General,Private,33779.91,2025-08-01,Negative,2025-06-25,MRI,10.99,10,No,2,Hospital 8,Delhi
+PID0013,AID0013,2025-07-26,2025-06-25,Yes,13,Other,26523,Hypertension,DID012,Endocrinology,7,BID0120,ICU,Uninsured,33019.32,2025-07-14,Negative,2025-06-06,Blood Test,6.34,6,No,1,Hospital 4,Tamil Nadu
+PID0014,AID0014,2025-08-07,2025-06-18,Yes,58,Male,41576,Hypertension,DID006,Pulmonology,8,BID0064,ICU,Private,40593.09,2025-07-05,Negative,2025-06-24,Blood Test,1.23,9,No,1,Hospital 4,Tamil Nadu
+PID0015,AID0015,2025-07-16,2025-06-27,No,62,Male,83350,Hypertension,DID029,General,3,BID0098,ICU,Private,13994.95,2025-07-06,Negative,2025-07-26,CT Scan,4.64,9,No,4,Hospital 3,Tamil Nadu
+PID0016,AID0016,2025-08-01,2025-06-10,No,8,Other,49352,Cancer,DID018,General,12,BID0081,ICU,Public,29624.7,2025-07-21,Negative,2025-06-20,Ultrasound,2.78,9,Yes,2,Hospital 2,West Bengal
+PID0017,AID0017,2025-08-05,2025-07-01,Yes,31,Female,02392,COVID-19,DID029,Oncology,4,BID0149,ICU,Uninsured,5017.19,2025-07-10,Negative,2025-07-26,Ultrasound,8.08,5,No,3,Hospital 4,Karnataka
+PID0018,AID0018,2025-07-27,2025-07-20,No,86,Other,14997,Diabetes,DID015,Pulmonology,15,BID0193,ICU,Public,23455.99,2025-07-06,Negative,2025-06-21,Blood Test,1.56,4,No,2,Hospital 6,Maharashtra
+PID0019,AID0019,2025-07-19,2025-07-02,No,48,Female,04865,Flu,DID015,Oncology,12,BID0078,ICU,Uninsured,41038.1,2025-07-26,Negative,2025-07-25,Blood Test,14.11,3,No,1,Hospital 9,Tamil Nadu
+PID0020,AID0020,2025-07-30,2025-07-28,No,78,Male,67468,Cancer,DID011,Cardiology,11,BID0163,Pediatrics,Uninsured,24938.06,2025-07-15,Negative,2025-06-04,Blood Test,1.84,7,No,1,Hospital 1,Karnataka
+PID0021,AID0021,2025-08-01,2025-07-27,No,82,Female,35142,Flu,DID024,Endocrinology,9,BID0181,Surgery,Uninsured,1473.82,2025-07-04,Positive,2025-06-19,MRI,8.41,6,No,2,Hospital 7,Tamil Nadu
+PID0022,AID0022,2025-06-11,2025-06-10,Yes,47,Male,43238,Diabetes,DID007,Cardiology,11,BID0027,Pediatrics,Uninsured,44322.6,2025-07-20,Negative,2025-07-17,Ultrasound,11.37,4,No,2,Hospital 7,Maharashtra
+PID0023,AID0023,2025-07-28,2025-07-09,Yes,43,Female,65186,Cancer,DID028,Cardiology,5,BID0041,ICU,Private,43736.17,2025-07-29,Negative,2025-06-29,MRI,3.39,8,No,2,Hospital 4,Maharashtra
+PID0024,AID0024,2025-08-04,2025-07-15,No,52,Female,81838,Diabetes,DID028,General,13,BID0072,Pediatrics,Uninsured,25960.88,2025-07-28,Negative,2025-07-07,Ultrasound,5.3,1,No,3,Hospital 3,West Bengal
+PID0025,AID0025,2025-07-30,2025-06-24,No,34,Male,57610,COVID-19,DID020,Endocrinology,6,BID0187,Pediatrics,Private,30704.23,2025-08-01,Negative,2025-06-27,CT Scan,13.54,4,No,4,Hospital 1,West Bengal
+PID0026,AID0026,2025-06-20,2025-06-09,No,69,Other,94289,Cancer,DID024,Cardiology,6,BID0111,ICU,Uninsured,46117.77,2025-07-30,Negative,2025-07-17,Blood Test,10.94,5,No,4,Hospital 6,Delhi
+PID0027,AID0027,2025-07-03,2025-06-07,No,71,Male,12397,Flu,DID014,Endocrinology,11,BID0192,General,Uninsured,28886.16,2025-07-09,Negative,2025-06-21,Blood Test,4.91,4,No,5,Hospital 10,Gujarat
+PID0028,AID0028,2025-08-06,2025-06-27,No,57,Female,38372,Cancer,DID007,Oncology,8,BID0189,General,Uninsured,5154.98,2025-07-07,Negative,2025-07-29,Ultrasound,5.36,4,No,2,Hospital 4,Tamil Nadu
+PID0029,AID0029,2025-07-12,2025-06-28,Yes,32,Female,93715,Asthma,DID028,General,8,BID0107,General,Uninsured,35121.36,2025-07-14,Negative,2025-06-10,MRI,2.64,1,No,1,Hospital 7,Tamil Nadu
+PID0030,AID0030,2025-07-16,2025-07-05,Yes,90,Other,72174,Hypertension,DID002,Oncology,4,BID0032,Surgery,Public,40269.41,2025-07-13,Negative,2025-07-10,Ultrasound,9.13,8,No,5,Hospital 7,West Bengal
+PID0031,AID0031,2025-07-26,2025-06-18,No,21,Other,54124,Hypertension,DID015,Pulmonology,13,BID0064,Pediatrics,Uninsured,24745.25,2025-07-21,Negative,2025-07-06,CT Scan,1.62,5,No,3,Hospital 6,West Bengal
+PID0032,AID0032,2025-07-28,2025-06-21,Yes,20,Male,23624,Hypertension,DID023,Cardiology,12,BID0055,ICU,Private,20972.37,2025-07-10,Negative,2025-07-26,CT Scan,1.4,7,No,5,Hospital 1,West Bengal
+PID0033,AID0033,2025-08-05,2025-07-30,No,1,Female,19818,Diabetes,DID025,Endocrinology,14,BID0108,General,Private,11751.66,2025-07-23,Negative,2025-07-08,Blood Test,6.14,7,No,4,Hospital 3,West Bengal
+PID0034,AID0034,2025-08-07,2025-07-20,No,51,Other,62883,Asthma,DID022,General,2,BID0165,Surgery,Public,43475.72,2025-07-31,Negative,2025-06-25,X-ray,6.0,4,No,3,Hospital 7,Karnataka
+PID0035,AID0035,2025-07-15,2025-06-26,No,54,Female,49126,COVID-19,DID016,General,12,BID0139,ICU,Private,11986.89,2025-07-24,Positive,2025-07-24,Blood Test,11.44,4,No,1,Hospital 10,Tamil Nadu
+PID0036,AID0036,2025-08-02,2025-07-09,No,61,Other,80296,COVID-19,DID019,Cardiology,8,BID0180,Pediatrics,Private,9221.67,2025-07-08,Negative,2025-06-27,Blood Test,11.78,3,No,1,Hospital 10,Maharashtra
+PID0037,AID0037,2025-07-04,2025-06-13,No,74,Other,53510,Hypertension,DID013,Cardiology,2,BID0152,General,Public,35162.46,2025-07-08,Negative,2025-07-15,Ultrasound,12.18,10,No,3,Hospital 9,Delhi
+PID0038,AID0038,2025-07-26,2025-07-21,No,9,Other,15140,Cancer,DID011,General,14,BID0108,Surgery,Public,22242.65,2025-07-19,Negative,2025-07-29,CT Scan,10.76,7,No,5,Hospital 5,West Bengal
+PID0039,AID0039,2025-08-07,2025-06-24,No,69,Female,30419,Hypertension,DID014,Oncology,5,BID0083,General,Public,14667.48,2025-07-20,Negative,2025-07-23,CT Scan,8.76,7,No,4,Hospital 6,Tamil Nadu
+PID0040,AID0040,2025-07-16,2025-07-07,No,46,Female,54323,Diabetes,DID009,Oncology,12,BID0071,ICU,Uninsured,47455.07,2025-07-23,Positive,2025-06-20,CT Scan,7.58,4,No,4,Hospital 8,Maharashtra
+PID0041,AID0041,2025-07-19,2025-06-25,Yes,29,Female,27517,Cancer,DID008,Pulmonology,11,BID0149,Pediatrics,Private,28120.17,2025-07-29,Negative,2025-06-23,Ultrasound,5.3,8,No,3,Hospital 4,Maharashtra
+PID0042,AID0042,2025-07-26,2025-06-17,No,41,Male,58002,Cancer,DID018,Cardiology,4,BID0056,Surgery,Private,36504.67,2025-07-06,Negative,2025-08-01,Ultrasound,9.15,2,No,3,Hospital 4,Karnataka
+PID0043,AID0043,2025-07-10,2025-06-16,Yes,2,Other,72178,Asthma,DID005,Pulmonology,1,BID0014,Pediatrics,Uninsured,47260.39,2025-07-15,Negative,2025-07-16,CT Scan,1.99,1,No,4,Hospital 8,Delhi
+PID0044,AID0044,2025-07-18,2025-07-18,No,7,Female,92978,Hypertension,DID004,General,7,BID0126,ICU,Uninsured,31842.84,2025-07-28,Positive,2025-07-03,MRI,12.26,5,Yes,2,Hospital 2,West Bengal
+PID0045,AID0045,2025-07-31,2025-07-21,No,78,Other,75892,Asthma,DID008,Oncology,7,BID0116,Surgery,Private,43148.17,2025-07-08,Negative,2025-07-01,X-ray,8.75,1,No,1,Hospital 4,Gujarat
+PID0046,AID0046,2025-07-31,2025-07-10,No,85,Male,59995,Flu,DID008,Cardiology,9,BID0020,General,Public,21017.36,2025-07-31,Negative,2025-07-10,CT Scan,4.72,4,No,3,Hospital 8,Maharashtra
+PID0047,AID0047,2025-07-27,2025-07-05,No,34,Other,01138,Asthma,DID022,Cardiology,7,BID0030,General,Uninsured,8300.48,2025-08-02,Negative,2025-06-18,MRI,1.54,3,No,5,Hospital 10,Karnataka
+PID0048,AID0048,2025-07-16,2025-07-06,No,60,Other,42655,Diabetes,DID023,Endocrinology,5,BID0129,Surgery,Private,4941.65,2025-07-09,Positive,2025-07-17,CT Scan,11.15,10,No,1,Hospital 4,Gujarat
+PID0049,AID0049,2025-08-01,2025-07-23,No,74,Other,60293,COVID-19,DID025,Pulmonology,10,BID0011,General,Private,26429.23,2025-07-16,Negative,2025-07-28,X-ray,3.13,10,No,4,Hospital 2,Delhi
+PID0050,AID0050,2025-07-14,2025-07-05,No,43,Female,65893,Cancer,DID004,Cardiology,6,BID0106,Surgery,Private,33466.59,2025-07-20,Negative,2025-07-14,Ultrasound,1.03,2,No,3,Hospital 2,Delhi
+PID0051,AID0051,2025-07-26,2025-06-10,No,1,Other,79911,Asthma,DID015,Endocrinology,1,BID0049,Pediatrics,Uninsured,38065.71,2025-07-15,Negative,2025-06-10,Blood Test,3.45,9,No,3,Hospital 8,Gujarat
+PID0052,AID0052,2025-07-25,2025-07-17,No,4,Other,15027,Asthma,DID026,Cardiology,12,BID0041,Pediatrics,Uninsured,1670.05,2025-07-26,Negative,2025-06-12,MRI,14.89,2,No,1,Hospital 3,Delhi
+PID0053,AID0053,2025-07-28,2025-07-27,No,38,Other,87452,Cancer,DID009,Endocrinology,14,BID0124,Surgery,Public,23382.54,2025-07-29,Negative,2025-06-24,MRI,13.87,9,No,2,Hospital 2,Karnataka
+PID0054,AID0054,2025-07-08,2025-06-09,No,54,Female,41074,Asthma,DID009,General,5,BID0186,Pediatrics,Uninsured,29416.25,2025-07-11,Negative,2025-07-17,MRI,6.97,8,No,5,Hospital 9,Delhi
+PID0055,AID0055,2025-07-30,2025-07-13,No,42,Male,31903,Cancer,DID008,Oncology,7,BID0060,Surgery,Public,16590.64,2025-07-08,Negative,2025-06-14,CT Scan,6.1,3,No,1,Hospital 3,West Bengal
+PID0056,AID0056,2025-07-28,2025-06-13,No,43,Male,24132,Hypertension,DID004,Oncology,15,BID0117,ICU,Uninsured,8063.62,2025-07-16,Negative,2025-06-26,MRI,1.59,5,No,4,Hospital 2,Karnataka
+PID0057,AID0057,2025-08-05,2025-07-31,No,69,Female,55056,Diabetes,DID021,Endocrinology,14,BID0139,ICU,Uninsured,4352.62,2025-07-06,Negative,2025-07-26,X-ray,14.96,2,No,1,Hospital 2,Delhi
+PID0058,AID0058,2025-07-06,2025-06-13,Yes,39,Male,66394,COVID-19,DID011,General,5,BID0092,Pediatrics,Private,8132.92,2025-07-13,Negative,2025-06-13,Ultrasound,10.39,3,No,1,Hospital 10,Delhi
+PID0059,AID0059,2025-07-31,2025-07-22,No,31,Female,82460,Asthma,DID005,Cardiology,8,BID0164,Pediatrics,Private,13511.01,2025-07-12,Positive,2025-08-01,CT Scan,13.57,9,No,4,Hospital 6,West Bengal
+PID0060,AID0060,2025-07-28,2025-06-15,No,55,Other,74230,Diabetes,DID015,Pulmonology,4,BID0099,Surgery,Public,12623.08,2025-07-09,Negative,2025-07-12,Ultrasound,4.79,5,Yes,4,Hospital 5,Maharashtra
+PID0061,AID0061,2025-08-06,2025-07-31,No,88,Other,15444,COVID-19,DID030,Oncology,12,BID0128,Pediatrics,Public,30746.18,2025-07-04,Negative,2025-06-20,MRI,9.5,3,No,1,Hospital 5,Delhi
+PID0062,AID0062,2025-07-21,2025-06-26,Yes,47,Other,23774,Flu,DID003,Pulmonology,6,BID0192,Surgery,Public,10838.94,2025-07-24,Negative,2025-07-12,X-ray,8.2,5,No,3,Hospital 8,Karnataka
+PID0063,AID0063,2025-07-13,2025-06-29,No,44,Male,18731,Hypertension,DID003,Cardiology,13,BID0058,Surgery,Uninsured,18922.98,2025-07-18,Negative,2025-06-16,Blood Test,4.33,2,No,3,Hospital 10,Delhi
+PID0064,AID0064,2025-07-06,2025-07-04,No,48,Male,59317,Cancer,DID008,Endocrinology,1,BID0159,Pediatrics,Uninsured,11846.99,2025-07-26,Positive,2025-07-23,CT Scan,13.69,5,No,1,Hospital 3,Maharashtra
+PID0065,AID0065,2025-07-08,2025-06-08,No,39,Female,27905,COVID-19,DID004,Cardiology,15,BID0138,General,Private,23228.54,2025-07-15,Negative,2025-07-04,Ultrasound,6.58,3,No,1,Hospital 8,West Bengal
+PID0066,AID0066,2025-06-18,2025-06-17,No,36,Male,12016,Cancer,DID012,Cardiology,8,BID0114,General,Private,5868.38,2025-07-09,Negative,2025-06-06,Ultrasound,13.57,6,Yes,3,Hospital 4,Maharashtra
+PID0067,AID0067,2025-07-18,2025-07-01,No,59,Male,68758,Cancer,DID007,Oncology,1,BID0013,Pediatrics,Public,49452.22,2025-08-01,Negative,2025-06-04,MRI,1.49,9,No,2,Hospital 4,Karnataka
+PID0068,AID0068,2025-08-04,2025-07-15,No,77,Male,51915,Diabetes,DID028,Cardiology,3,BID0139,Pediatrics,Public,6386.39,2025-07-10,Negative,2025-06-10,MRI,0.72,4,No,1,Hospital 3,Karnataka
+PID0069,AID0069,2025-07-29,2025-07-19,Yes,54,Other,46565,COVID-19,DID024,General,8,BID0115,Pediatrics,Uninsured,30089.63,2025-07-20,Negative,2025-07-18,MRI,14.21,1,No,5,Hospital 5,Delhi
+PID0070,AID0070,2025-07-26,2025-07-03,No,4,Male,64543,Hypertension,DID028,Endocrinology,7,BID0176,ICU,Private,35907.66,2025-08-02,Negative,2025-07-09,Blood Test,5.17,3,Yes,3,Hospital 10,Gujarat
+PID0071,AID0071,2025-08-02,2025-07-25,No,42,Female,51799,Asthma,DID017,Pulmonology,8,BID0130,Surgery,Public,39861.71,2025-07-06,Negative,2025-06-25,Ultrasound,10.95,4,No,2,Hospital 7,Karnataka
+PID0072,AID0072,2025-07-07,2025-07-04,No,52,Female,50258,Cancer,DID004,Pulmonology,7,BID0081,Pediatrics,Private,47726.03,2025-07-28,Negative,2025-07-07,CT Scan,1.47,2,Yes,1,Hospital 6,Tamil Nadu
+PID0073,AID0073,2025-07-26,2025-07-12,No,76,Other,45446,Asthma,DID011,General,7,BID0091,Surgery,Uninsured,3520.86,2025-07-05,Negative,2025-07-16,X-ray,5.6,10,No,2,Hospital 8,Tamil Nadu
+PID0074,AID0074,2025-07-21,2025-07-13,No,45,Other,96001,Diabetes,DID004,Pulmonology,10,BID0058,Surgery,Uninsured,48752.78,2025-07-22,Negative,2025-07-17,Ultrasound,10.29,9,Yes,3,Hospital 1,Tamil Nadu
+PID0075,AID0075,2025-08-07,2025-06-27,No,40,Female,21048,Diabetes,DID001,Cardiology,14,BID0037,Surgery,Public,7951.86,2025-07-09,Negative,2025-07-14,Blood Test,1.83,9,No,4,Hospital 8,Karnataka
+PID0076,AID0076,2025-08-04,2025-06-06,Yes,40,Other,17101,Diabetes,DID025,Oncology,10,BID0022,ICU,Public,8713.08,2025-07-14,Negative,2025-06-16,Blood Test,4.45,7,No,4,Hospital 7,Karnataka
+PID0077,AID0077,2025-07-11,2025-06-29,No,66,Male,37874,Diabetes,DID014,General,5,BID0174,Surgery,Uninsured,33689.5,2025-07-20,Positive,2025-07-23,CT Scan,14.77,1,Yes,3,Hospital 4,Tamil Nadu
+PID0078,AID0078,2025-06-18,2025-06-10,No,38,Female,23274,COVID-19,DID001,Endocrinology,12,BID0111,General,Public,19630.16,2025-07-21,Negative,2025-07-31,Ultrasound,8.6,6,Yes,1,Hospital 7,Maharashtra
+PID0079,AID0079,2025-08-05,2025-07-15,No,10,Female,60925,Asthma,DID014,Oncology,7,BID0182,Surgery,Private,6643.5,2025-07-05,Positive,2025-07-19,X-ray,2.99,10,No,3,Hospital 2,Delhi
+PID0080,AID0080,2025-07-25,2025-07-04,No,32,Female,11304,Asthma,DID013,Oncology,2,BID0102,Pediatrics,Uninsured,17636.15,2025-07-30,Negative,2025-06-26,MRI,1.61,2,No,2,Hospital 6,Karnataka
+PID0081,AID0081,2025-07-27,2025-06-11,No,83,Male,09824,Flu,DID004,Cardiology,5,BID0051,General,Uninsured,8490.62,2025-07-09,Negative,2025-07-23,Blood Test,3.07,8,No,5,Hospital 10,Delhi
+PID0082,AID0082,2025-07-14,2025-06-27,No,73,Other,43048,Cancer,DID020,Pulmonology,14,BID0161,Pediatrics,Public,22548.38,2025-07-14,Negative,2025-07-23,X-ray,12.05,10,Yes,5,Hospital 2,Karnataka
+PID0083,AID0083,2025-07-17,2025-06-19,No,5,Male,54377,Diabetes,DID027,Pulmonology,2,BID0166,ICU,Uninsured,30109.91,2025-07-16,Negative,2025-06-25,Ultrasound,8.54,1,No,5,Hospital 4,Karnataka
+PID0084,AID0084,2025-06-18,2025-06-07,No,65,Male,84564,COVID-19,DID015,General,13,BID0088,ICU,Uninsured,32660.23,2025-07-16,Positive,2025-07-08,CT Scan,14.87,9,No,2,Hospital 6,Karnataka
+PID0085,AID0085,2025-07-27,2025-07-09,No,50,Female,63562,Diabetes,DID022,Oncology,1,BID0162,Pediatrics,Public,17154.85,2025-07-18,Negative,2025-07-19,CT Scan,4.62,10,No,3,Hospital 2,West Bengal
+PID0086,AID0086,2025-08-07,2025-07-29,No,45,Female,12098,Cancer,DID023,Endocrinology,3,BID0153,ICU,Private,28387.18,2025-07-28,Negative,2025-07-07,X-ray,12.29,9,Yes,4,Hospital 9,Karnataka
+PID0087,AID0087,2025-07-27,2025-06-21,Yes,40,Male,10055,Flu,DID011,Endocrinology,4,BID0058,General,Public,4781.09,2025-07-06,Negative,2025-07-17,Blood Test,7.86,9,No,5,Hospital 1,Gujarat
+PID0088,AID0088,2025-07-27,2025-07-16,No,80,Male,03829,Asthma,DID013,Cardiology,3,BID0047,General,Uninsured,22446.0,2025-07-14,Negative,2025-06-13,MRI,14.56,10,No,4,Hospital 4,West Bengal
+PID0089,AID0089,2025-08-01,2025-06-13,No,61,Male,08384,Diabetes,DID022,Oncology,8,BID0119,Pediatrics,Private,25642.43,2025-07-14,Negative,2025-07-18,MRI,12.34,10,No,3,Hospital 1,Gujarat
+PID0090,AID0090,2025-07-28,2025-06-11,No,48,Other,38112,COVID-19,DID023,Oncology,14,BID0032,Pediatrics,Public,38392.72,2025-07-07,Negative,2025-07-24,Ultrasound,2.64,7,Yes,2,Hospital 8,Karnataka
+PID0091,AID0091,2025-07-30,2025-06-13,No,54,Male,72120,Hypertension,DID017,Pulmonology,4,BID0099,ICU,Private,12002.4,2025-07-09,Negative,2025-06-22,Blood Test,12.67,6,No,2,Hospital 1,Karnataka
+PID0092,AID0092,2025-06-27,2025-06-06,No,61,Other,36856,Flu,DID025,Endocrinology,8,BID0158,ICU,Public,1931.19,2025-07-21,Negative,2025-06-05,MRI,8.46,10,No,1,Hospital 5,Tamil Nadu
+PID0093,AID0093,2025-08-06,2025-07-03,No,7,Male,17113,Hypertension,DID021,Oncology,8,BID0017,ICU,Private,30240.21,2025-07-08,Positive,2025-07-01,Ultrasound,8.84,3,No,1,Hospital 10,Karnataka
+PID0094,AID0094,2025-07-29,2025-06-05,No,54,Male,16748,Cancer,DID022,General,9,BID0093,ICU,Uninsured,27660.02,2025-07-15,Negative,2025-07-03,Ultrasound,8.54,7,No,1,Hospital 7,Karnataka
+PID0095,AID0095,2025-08-04,2025-06-26,No,3,Female,58120,COVID-19,DID012,Cardiology,12,BID0169,ICU,Uninsured,37024.16,2025-08-01,Negative,2025-07-16,Blood Test,5.61,6,No,2,Hospital 8,Gujarat
+PID0096,AID0096,2025-07-08,2025-07-06,No,24,Male,43001,COVID-19,DID023,Endocrinology,1,BID0076,General,Public,39764.35,2025-07-29,Negative,2025-06-06,X-ray,14.03,9,No,5,Hospital 8,Karnataka
+PID0097,AID0097,2025-08-07,2025-07-17,Yes,83,Male,33108,Diabetes,DID012,General,14,BID0168,Pediatrics,Private,7099.28,2025-07-28,Negative,2025-07-09,CT Scan,11.28,7,No,2,Hospital 8,Gujarat
+PID0098,AID0098,2025-08-02,2025-07-30,No,67,Female,06070,COVID-19,DID024,Endocrinology,2,BID0111,General,Uninsured,15394.55,2025-07-20,Negative,2025-07-26,X-ray,10.08,5,No,4,Hospital 3,Gujarat
+PID0099,AID0099,2025-07-17,2025-06-24,No,58,Male,14937,Cancer,DID028,Pulmonology,10,BID0112,Pediatrics,Uninsured,49021.34,2025-07-05,Negative,2025-07-10,Blood Test,10.23,7,No,2,Hospital 1,Tamil Nadu
+PID0100,AID0100,2025-08-04,2025-06-28,No,87,Female,57915,COVID-19,DID005,General,4,BID0200,Pediatrics,Private,19759.87,2025-07-12,Negative,2025-07-24,Ultrasound,2.72,8,No,3,Hospital 8,Maharashtra
+PID0101,AID0101,2025-08-06,2025-06-05,No,68,Female,66190,Hypertension,DID011,Pulmonology,4,BID0030,ICU,Uninsured,10116.35,2025-07-07,Negative,2025-07-31,Ultrasound,2.21,5,No,2,Hospital 10,Karnataka
+PID0102,AID0102,2025-07-07,2025-06-18,No,63,Male,62743,COVID-19,DID005,General,8,BID0045,Surgery,Public,40715.15,2025-07-21,Negative,2025-06-11,X-ray,10.18,2,No,3,Hospital 5,Tamil Nadu
+PID0103,AID0103,2025-06-26,2025-06-24,No,90,Other,62073,Flu,DID026,Pulmonology,9,BID0058,ICU,Public,39811.22,2025-07-14,Negative,2025-07-23,CT Scan,0.88,9,No,4,Hospital 9,Tamil Nadu
+PID0104,AID0104,2025-07-28,2025-06-05,No,12,Male,24374,Diabetes,DID013,Endocrinology,9,BID0106,Surgery,Uninsured,4613.78,2025-07-14,Negative,2025-06-15,Blood Test,7.02,9,No,5,Hospital 10,Tamil Nadu
+PID0105,AID0105,2025-07-20,2025-07-20,No,17,Female,68771,Asthma,DID030,General,14,BID0032,General,Private,9068.2,2025-07-30,Negative,2025-07-11,MRI,5.52,9,No,1,Hospital 5,Tamil Nadu
+PID0106,AID0106,2025-07-10,2025-06-29,No,71,Female,16144,Flu,DID021,Pulmonology,10,BID0137,ICU,Uninsured,32408.38,2025-07-27,Negative,2025-07-16,Ultrasound,2.74,10,No,5,Hospital 6,West Bengal
+PID0107,AID0107,2025-07-17,2025-07-11,Yes,4,Male,16607,COVID-19,DID021,Oncology,5,BID0167,General,Uninsured,21412.75,2025-07-22,Negative,2025-07-31,CT Scan,13.39,9,No,3,Hospital 8,Tamil Nadu
+PID0108,AID0108,2025-07-28,2025-07-26,No,88,Female,43411,Diabetes,DID015,General,12,BID0016,General,Private,21365.47,2025-07-12,Negative,2025-07-07,X-ray,9.3,6,No,3,Hospital 6,Delhi
+PID0109,AID0109,2025-06-09,2025-06-05,Yes,48,Other,97964,Asthma,DID004,Pulmonology,4,BID0120,ICU,Private,23030.2,2025-07-28,Negative,2025-07-01,Blood Test,4.71,7,No,4,Hospital 4,Tamil Nadu
+PID0110,AID0110,2025-06-21,2025-06-04,No,74,Other,50810,Diabetes,DID007,Cardiology,8,BID0132,Surgery,Private,44074.71,2025-07-27,Negative,2025-07-12,Blood Test,14.21,9,No,2,Hospital 4,West Bengal
+PID0111,AID0111,2025-06-25,2025-06-18,No,7,Female,32066,Hypertension,DID020,Endocrinology,5,BID0138,ICU,Public,22115.46,2025-07-28,Negative,2025-07-04,X-ray,11.58,6,Yes,1,Hospital 10,West Bengal
+PID0112,AID0112,2025-07-21,2025-06-29,Yes,71,Female,59390,COVID-19,DID013,Oncology,8,BID0196,Pediatrics,Uninsured,34339.53,2025-07-20,Negative,2025-06-26,Blood Test,6.21,6,No,3,Hospital 3,Tamil Nadu
+PID0113,AID0113,2025-07-23,2025-07-22,No,52,Other,18520,COVID-19,DID002,General,3,BID0183,Pediatrics,Private,26447.3,2025-07-04,Negative,2025-06-26,Ultrasound,2.53,10,No,4,Hospital 10,Gujarat
+PID0114,AID0114,2025-07-28,2025-07-27,No,76,Female,80698,Asthma,DID027,Oncology,9,BID0126,Pediatrics,Private,40971.69,2025-07-21,Negative,2025-07-25,Blood Test,14.71,10,No,1,Hospital 10,Delhi
+PID0115,AID0115,2025-07-29,2025-07-28,No,84,Other,11207,Asthma,DID008,General,10,BID0123,General,Uninsured,31822.24,2025-07-22,Negative,2025-06-06,CT Scan,2.64,4,Yes,1,Hospital 4,Maharashtra
+PID0116,AID0116,2025-07-19,2025-07-16,No,54,Male,20860,Hypertension,DID023,Cardiology,7,BID0129,Surgery,Uninsured,36642.7,2025-07-31,Negative,2025-06-26,Ultrasound,3.51,6,No,4,Hospital 9,Delhi
+PID0117,AID0117,2025-07-07,2025-06-30,No,23,Female,89441,Asthma,DID011,Oncology,6,BID0174,Pediatrics,Uninsured,24724.82,2025-07-31,Negative,2025-07-29,X-ray,8.59,4,No,3,Hospital 5,Gujarat
+PID0118,AID0118,2025-06-16,2025-06-09,No,63,Female,73893,Hypertension,DID012,Oncology,15,BID0185,Pediatrics,Private,6971.83,2025-07-25,Negative,2025-07-10,CT Scan,13.49,7,No,2,Hospital 5,Maharashtra
+PID0119,AID0119,2025-08-03,2025-07-09,No,11,Female,77871,Hypertension,DID021,Pulmonology,12,BID0123,General,Public,41569.63,2025-07-07,Negative,2025-06-10,Ultrasound,10.59,3,No,5,Hospital 4,Tamil Nadu
+PID0120,AID0120,2025-08-02,2025-07-10,Yes,68,Male,69768,Cancer,DID008,General,2,BID0106,Pediatrics,Uninsured,24147.79,2025-07-20,Negative,2025-06-04,MRI,0.58,9,No,2,Hospital 7,Gujarat
+PID0121,AID0121,2025-08-02,2025-07-23,No,61,Female,73366,Cancer,DID007,Pulmonology,6,BID0074,ICU,Public,32962.64,2025-07-25,Negative,2025-07-21,Blood Test,13.74,3,No,2,Hospital 1,Delhi
+PID0122,AID0122,2025-08-04,2025-06-21,No,24,Other,54096,Diabetes,DID029,General,1,BID0077,ICU,Private,14943.52,2025-07-05,Negative,2025-06-04,Ultrasound,8.1,3,No,4,Hospital 5,Tamil Nadu
+PID0123,AID0123,2025-08-03,2025-07-31,No,43,Male,25374,Cancer,DID015,Pulmonology,12,BID0048,ICU,Uninsured,17518.5,2025-08-02,Negative,2025-06-15,MRI,3.04,7,No,5,Hospital 6,Maharashtra
+PID0124,AID0124,2025-06-13,2025-06-05,No,13,Male,00612,Flu,DID016,Pulmonology,15,BID0064,ICU,Private,19795.15,2025-07-17,Negative,2025-07-31,X-ray,14.33,5,No,5,Hospital 1,Karnataka
+PID0125,AID0125,2025-08-04,2025-06-25,No,89,Male,05083,COVID-19,DID022,General,8,BID0079,General,Private,34617.61,2025-07-26,Negative,2025-07-22,X-ray,10.51,5,No,2,Hospital 4,Tamil Nadu
+PID0126,AID0126,2025-07-10,2025-07-06,No,59,Other,36504,Asthma,DID012,Endocrinology,12,BID0141,Surgery,Uninsured,40297.75,2025-07-25,Negative,2025-06-30,MRI,10.36,10,No,1,Hospital 9,Delhi
+PID0127,AID0127,2025-06-28,2025-06-09,No,47,Male,98353,Asthma,DID004,General,14,BID0141,General,Uninsured,27296.35,2025-08-02,Negative,2025-07-25,Ultrasound,6.91,4,No,4,Hospital 2,West Bengal
+PID0128,AID0128,2025-06-16,2025-06-06,No,8,Female,82076,Flu,DID017,Endocrinology,8,BID0145,ICU,Uninsured,23656.54,2025-08-01,Negative,2025-06-11,Blood Test,6.24,1,No,5,Hospital 2,Maharashtra
+PID0129,AID0129,2025-07-13,2025-07-13,No,90,Male,72604,Asthma,DID002,General,15,BID0121,ICU,Private,21034.48,2025-07-06,Negative,2025-07-23,CT Scan,5.93,7,No,4,Hospital 7,Maharashtra
+PID0130,AID0130,2025-07-21,2025-07-21,No,85,Other,65637,Flu,DID021,Pulmonology,2,BID0046,Surgery,Uninsured,7240.01,2025-07-16,Negative,2025-06-08,Blood Test,11.46,5,No,5,Hospital 7,West Bengal
+PID0131,AID0131,2025-07-16,2025-07-14,No,30,Male,99239,Hypertension,DID012,Cardiology,5,BID0049,ICU,Public,40664.43,2025-07-07,Negative,2025-06-15,Blood Test,3.99,2,No,1,Hospital 8,West Bengal
+PID0132,AID0132,2025-07-20,2025-07-04,No,7,Male,80532,Cancer,DID002,Endocrinology,8,BID0060,General,Public,7866.64,2025-07-23,Negative,2025-06-26,MRI,12.33,10,No,5,Hospital 6,Tamil Nadu
+PID0133,AID0133,2025-08-04,2025-07-16,No,19,Other,89044,Asthma,DID008,Endocrinology,5,BID0071,ICU,Uninsured,47477.49,2025-07-11,Negative,2025-07-13,MRI,9.58,7,No,1,Hospital 6,Gujarat
+PID0134,AID0134,2025-07-30,2025-06-06,No,68,Female,08376,Cancer,DID014,Endocrinology,3,BID0077,Surgery,Public,37966.39,2025-07-22,Negative,2025-07-16,MRI,4.86,3,No,1,Hospital 9,Delhi
+PID0135,AID0135,2025-07-14,2025-06-13,No,72,Other,49857,Flu,DID013,Cardiology,5,BID0053,Pediatrics,Uninsured,4874.45,2025-07-17,Negative,2025-07-29,X-ray,1.84,4,Yes,4,Hospital 10,West Bengal
+PID0136,AID0136,2025-08-07,2025-07-17,Yes,10,Male,34914,Asthma,DID024,Oncology,4,BID0123,General,Private,15856.21,2025-07-11,Negative,2025-07-24,MRI,14.09,2,No,4,Hospital 4,Gujarat
+PID0137,AID0137,2025-07-18,2025-07-05,No,27,Female,11617,Flu,DID018,Pulmonology,13,BID0073,Surgery,Private,27148.86,2025-07-14,Negative,2025-06-23,X-ray,5.71,8,No,4,Hospital 6,Tamil Nadu
+PID0138,AID0138,2025-08-02,2025-07-22,No,53,Male,28768,Asthma,DID028,Cardiology,12,BID0038,ICU,Private,28112.27,2025-07-05,Negative,2025-07-13,CT Scan,4.78,4,No,4,Hospital 10,Tamil Nadu
+PID0139,AID0139,2025-08-06,2025-06-28,No,84,Other,99380,Diabetes,DID009,Endocrinology,12,BID0165,Surgery,Private,9243.45,2025-07-14,Negative,2025-06-15,MRI,2.53,9,No,5,Hospital 1,West Bengal
+PID0140,AID0140,2025-08-07,2025-07-19,Yes,10,Other,52010,COVID-19,DID025,General,7,BID0036,General,Public,35651.31,2025-07-09,Positive,2025-06-22,Ultrasound,7.11,1,No,5,Hospital 8,Gujarat
+PID0141,AID0141,2025-07-30,2025-06-15,No,1,Other,98773,Asthma,DID014,General,1,BID0136,Pediatrics,Uninsured,48896.49,2025-07-05,Positive,2025-06-20,CT Scan,12.19,3,No,1,Hospital 9,Tamil Nadu
+PID0142,AID0142,2025-07-18,2025-07-17,No,80,Other,76449,Diabetes,DID027,Pulmonology,5,BID0102,ICU,Private,48005.59,2025-07-05,Negative,2025-06-23,MRI,14.86,4,No,1,Hospital 1,Maharashtra
+PID0143,AID0143,2025-07-23,2025-07-22,No,49,Other,90320,Hypertension,DID002,General,12,BID0044,ICU,Private,42421.16,2025-07-22,Negative,2025-06-19,X-ray,8.7,2,No,1,Hospital 4,Tamil Nadu
+PID0144,AID0144,2025-08-03,2025-06-23,No,89,Other,83234,Hypertension,DID009,General,15,BID0020,Pediatrics,Uninsured,28611.98,2025-07-21,Positive,2025-06-16,X-ray,0.73,4,No,4,Hospital 2,Karnataka
+PID0145,AID0145,2025-07-23,2025-06-19,Yes,31,Other,70569,Hypertension,DID022,Oncology,6,BID0099,General,Uninsured,36484.01,2025-07-22,Negative,2025-07-03,X-ray,1.28,7,No,1,Hospital 6,West Bengal
+PID0146,AID0146,2025-08-02,2025-07-29,No,77,Female,96535,Diabetes,DID001,Pulmonology,13,BID0116,Surgery,Public,18434.75,2025-07-24,Negative,2025-07-22,CT Scan,3.19,10,No,1,Hospital 10,Karnataka
+PID0147,AID0147,2025-08-06,2025-06-07,No,10,Male,14157,Diabetes,DID005,Endocrinology,12,BID0163,General,Uninsured,20091.48,2025-07-24,Negative,2025-07-07,Blood Test,0.58,5,No,3,Hospital 2,Tamil Nadu
+PID0148,AID0148,2025-07-31,2025-07-07,Yes,56,Female,66781,Asthma,DID018,Oncology,7,BID0027,ICU,Public,18341.8,2025-07-15,Positive,2025-07-01,Ultrasound,11.87,7,Yes,4,Hospital 7,Maharashtra
+PID0149,AID0149,2025-08-03,2025-07-28,No,72,Male,27890,Asthma,DID017,Cardiology,11,BID0098,General,Public,14177.03,2025-08-02,Negative,2025-06-15,MRI,1.42,7,No,3,Hospital 8,Maharashtra
+PID0150,AID0150,2025-07-30,2025-07-12,No,32,Other,35046,Cancer,DID016,Oncology,10,BID0051,Surgery,Public,7638.99,2025-07-31,Positive,2025-08-01,CT Scan,5.32,10,No,3,Hospital 8,Karnataka
+PID0151,AID0151,2025-07-22,2025-06-22,No,84,Other,97596,Flu,DID010,Pulmonology,10,BID0178,General,Private,16394.98,2025-07-11,Negative,2025-07-18,X-ray,4.73,8,No,2,Hospital 6,Delhi
+PID0152,AID0152,2025-07-11,2025-07-03,No,51,Female,93497,COVID-19,DID030,Oncology,4,BID0152,General,Uninsured,38613.28,2025-07-27,Positive,2025-06-22,CT Scan,14.17,4,No,3,Hospital 2,Delhi
+PID0153,AID0153,2025-07-19,2025-07-05,No,18,Other,45829,Diabetes,DID008,Pulmonology,11,BID0040,Surgery,Private,4624.29,2025-07-26,Negative,2025-07-14,CT Scan,8.94,9,No,4,Hospital 9,Maharashtra
+PID0154,AID0154,2025-07-29,2025-07-18,No,47,Other,84221,Asthma,DID020,General,2,BID0197,General,Uninsured,33570.0,2025-07-06,Negative,2025-07-03,Ultrasound,1.14,7,No,3,Hospital 7,Maharashtra
+PID0155,AID0155,2025-07-29,2025-07-16,Yes,34,Male,88378,Asthma,DID024,Oncology,9,BID0149,General,Private,19331.86,2025-07-27,Negative,2025-07-30,Ultrasound,10.51,3,No,1,Hospital 8,Maharashtra
+PID0156,AID0156,2025-07-27,2025-06-24,No,11,Male,44157,Cancer,DID005,Pulmonology,5,BID0088,Surgery,Public,26534.63,2025-07-08,Negative,2025-06-25,Blood Test,6.85,8,No,3,Hospital 1,Gujarat
+PID0157,AID0157,2025-07-28,2025-07-16,Yes,44,Other,22136,COVID-19,DID022,Cardiology,15,BID0190,General,Uninsured,9548.21,2025-07-12,Negative,2025-07-28,Ultrasound,6.68,8,No,4,Hospital 3,Tamil Nadu
+PID0158,AID0158,2025-07-25,2025-06-09,No,56,Female,71794,COVID-19,DID024,Oncology,15,BID0051,Surgery,Uninsured,22048.09,2025-07-10,Positive,2025-06-17,MRI,3.48,2,No,5,Hospital 3,Karnataka
+PID0159,AID0159,2025-07-26,2025-07-18,No,59,Male,96548,Diabetes,DID022,Endocrinology,9,BID0164,Pediatrics,Uninsured,20043.32,2025-07-16,Negative,2025-07-15,Blood Test,5.54,8,No,3,Hospital 10,West Bengal
+PID0160,AID0160,2025-07-31,2025-06-18,Yes,18,Female,49714,COVID-19,DID008,Pulmonology,2,BID0047,Pediatrics,Uninsured,7926.57,2025-07-14,Negative,2025-07-12,Ultrasound,2.5,7,No,4,Hospital 9,Gujarat
+PID0161,AID0161,2025-07-31,2025-07-20,No,23,Other,46138,Flu,DID016,Pulmonology,3,BID0048,Pediatrics,Private,31351.09,2025-08-01,Negative,2025-06-09,Blood Test,7.53,4,No,5,Hospital 9,Gujarat
+PID0162,AID0162,2025-08-04,2025-06-17,No,88,Female,39474,Hypertension,DID023,Endocrinology,8,BID0043,ICU,Uninsured,2512.17,2025-07-29,Negative,2025-06-12,X-ray,0.97,4,No,2,Hospital 8,West Bengal
+PID0163,AID0163,2025-07-20,2025-07-14,No,64,Other,63462,Asthma,DID004,Oncology,2,BID0069,Pediatrics,Uninsured,41307.94,2025-07-12,Positive,2025-07-07,CT Scan,8.42,7,No,2,Hospital 5,Maharashtra
+PID0164,AID0164,2025-08-01,2025-07-12,No,45,Male,06649,Hypertension,DID028,General,13,BID0061,General,Uninsured,29808.27,2025-07-20,Negative,2025-07-10,Ultrasound,9.68,3,No,2,Hospital 4,Maharashtra
+PID0165,AID0165,2025-06-10,2025-06-10,No,69,Female,91337,Asthma,DID018,Cardiology,6,BID0181,Pediatrics,Private,29064.04,2025-08-01,Negative,2025-07-10,Ultrasound,14.79,2,No,4,Hospital 1,Karnataka
+PID0166,AID0166,2025-07-30,2025-07-26,No,17,Other,90047,Flu,DID008,Cardiology,12,BID0083,General,Uninsured,20242.34,2025-07-27,Negative,2025-06-23,X-ray,9.6,7,No,1,Hospital 7,West Bengal
+PID0167,AID0167,2025-06-27,2025-06-20,No,89,Female,50357,Hypertension,DID016,Pulmonology,10,BID0001,ICU,Uninsured,48635.36,2025-07-11,Negative,2025-07-28,X-ray,12.83,9,No,4,Hospital 4,Delhi
+PID0168,AID0168,2025-07-22,2025-07-18,No,37,Female,77150,Asthma,DID019,Cardiology,10,BID0125,Pediatrics,Uninsured,38350.45,2025-07-27,Positive,2025-07-26,CT Scan,0.74,3,No,1,Hospital 7,Tamil Nadu
+PID0169,AID0169,2025-08-07,2025-07-22,No,17,Other,03748,Diabetes,DID006,Pulmonology,2,BID0168,Pediatrics,Private,5038.61,2025-07-17,Negative,2025-06-27,MRI,1.25,5,No,2,Hospital 7,Gujarat
+PID0170,AID0170,2025-06-27,2025-06-25,Yes,13,Male,60750,Flu,DID016,General,3,BID0152,General,Uninsured,34319.15,2025-07-04,Positive,2025-06-28,X-ray,12.35,7,No,4,Hospital 2,Tamil Nadu
+PID0171,AID0171,2025-07-14,2025-06-28,No,14,Male,42116,Diabetes,DID012,Pulmonology,3,BID0098,General,Uninsured,49654.07,2025-08-01,Negative,2025-06-09,Ultrasound,8.67,10,No,4,Hospital 6,Gujarat
+PID0172,AID0172,2025-07-30,2025-06-13,No,20,Female,33111,Asthma,DID022,Endocrinology,14,BID0056,ICU,Public,7860.64,2025-07-08,Negative,2025-06-21,CT Scan,5.6,7,No,2,Hospital 4,Karnataka
+PID0173,AID0173,2025-08-02,2025-07-07,No,32,Other,05152,Asthma,DID020,Oncology,5,BID0200,ICU,Uninsured,43915.53,2025-07-16,Negative,2025-07-21,Ultrasound,7.89,7,No,1,Hospital 4,Delhi
+PID0174,AID0174,2025-07-20,2025-07-16,No,31,Female,96478,Cancer,DID020,General,9,BID0004,Pediatrics,Private,7467.16,2025-07-22,Negative,2025-08-01,Ultrasound,6.6,9,No,4,Hospital 2,Maharashtra
+PID0175,AID0175,2025-08-02,2025-07-11,No,2,Female,91767,Flu,DID002,General,13,BID0102,Pediatrics,Uninsured,35918.82,2025-07-05,Negative,2025-07-30,CT Scan,10.68,2,No,5,Hospital 10,Tamil Nadu
+PID0176,AID0176,2025-07-15,2025-07-14,No,40,Male,06418,Asthma,DID030,Cardiology,13,BID0040,Pediatrics,Private,29735.42,2025-08-01,Negative,2025-06-04,Blood Test,5.0,7,No,2,Hospital 1,Tamil Nadu
+PID0177,AID0177,2025-07-10,2025-06-23,Yes,56,Male,09720,Hypertension,DID020,Oncology,1,BID0080,General,Public,1620.58,2025-07-31,Negative,2025-06-10,Blood Test,2.88,6,No,3,Hospital 3,Karnataka
+PID0178,AID0178,2025-06-25,2025-06-18,Yes,35,Other,82961,COVID-19,DID025,General,6,BID0110,Pediatrics,Uninsured,4129.73,2025-07-08,Negative,2025-08-01,Ultrasound,9.6,8,No,3,Hospital 1,Delhi
+PID0179,AID0179,2025-07-28,2025-07-16,No,22,Female,36100,Flu,DID009,General,15,BID0147,ICU,Public,37298.22,2025-07-24,Positive,2025-06-19,Blood Test,4.05,8,No,2,Hospital 3,Maharashtra
+PID0180,AID0180,2025-08-03,2025-07-28,No,84,Female,29905,Flu,DID011,Cardiology,7,BID0185,Pediatrics,Private,41473.85,2025-07-29,Negative,2025-07-06,Blood Test,7.78,1,No,5,Hospital 1,Delhi
+PID0181,AID0181,2025-07-09,2025-06-26,Yes,60,Female,26770,Diabetes,DID011,General,9,BID0117,ICU,Private,10832.89,2025-07-17,Negative,2025-07-10,X-ray,11.22,4,No,5,Hospital 8,Tamil Nadu
+PID0182,AID0182,2025-07-17,2025-07-03,No,70,Male,67475,Flu,DID001,Endocrinology,1,BID0060,Pediatrics,Uninsured,42139.13,2025-07-11,Negative,2025-07-27,X-ray,0.52,7,No,3,Hospital 2,Tamil Nadu
+PID0183,AID0183,2025-07-12,2025-06-29,No,31,Female,68193,Hypertension,DID002,Cardiology,12,BID0072,ICU,Public,46142.45,2025-07-20,Negative,2025-07-06,Ultrasound,6.49,6,No,1,Hospital 10,Maharashtra
+PID0184,AID0184,2025-07-20,2025-07-10,No,82,Female,19962,COVID-19,DID019,Oncology,1,BID0112,General,Public,15292.13,2025-07-25,Negative,2025-07-27,CT Scan,10.66,6,No,3,Hospital 4,Maharashtra
+PID0185,AID0185,2025-07-23,2025-06-25,No,18,Other,65369,COVID-19,DID005,General,3,BID0116,Surgery,Private,20919.12,2025-08-01,Negative,2025-06-26,MRI,7.05,8,No,1,Hospital 2,Tamil Nadu
+PID0186,AID0186,2025-07-28,2025-07-24,No,39,Other,66766,Cancer,DID020,General,4,BID0084,General,Public,35846.71,2025-07-19,Negative,2025-07-11,CT Scan,7.95,5,No,2,Hospital 1,Delhi
+PID0187,AID0187,2025-06-24,2025-06-20,No,72,Other,52429,Asthma,DID008,General,8,BID0027,General,Public,1585.89,2025-07-31,Negative,2025-06-24,MRI,2.4,7,No,1,Hospital 10,West Bengal
+PID0188,AID0188,2025-07-15,2025-07-04,No,10,Male,58261,COVID-19,DID007,Endocrinology,13,BID0033,ICU,Private,7003.86,2025-07-31,Negative,2025-06-14,Blood Test,2.94,10,No,4,Hospital 8,Maharashtra
+PID0189,AID0189,2025-06-30,2025-06-18,No,55,Male,30711,Diabetes,DID007,Cardiology,5,BID0072,Surgery,Public,2697.82,2025-07-28,Negative,2025-07-02,MRI,9.89,8,No,5,Hospital 8,Maharashtra
+PID0190,AID0190,2025-07-30,2025-07-24,Yes,50,Male,76384,Hypertension,DID007,Oncology,4,BID0162,ICU,Private,39313.87,2025-07-30,Negative,2025-07-08,Ultrasound,11.83,6,No,5,Hospital 6,Delhi
+PID0191,AID0191,2025-07-22,2025-06-30,No,4,Female,46917,Asthma,DID008,General,15,BID0200,Pediatrics,Public,40624.04,2025-07-13,Negative,2025-06-27,X-ray,11.62,4,No,1,Hospital 4,Gujarat
+PID0192,AID0192,2025-08-01,2025-07-27,No,69,Other,40884,COVID-19,DID025,Cardiology,10,BID0100,Pediatrics,Public,9628.92,2025-08-01,Negative,2025-07-03,X-ray,13.75,1,No,3,Hospital 10,West Bengal
+PID0193,AID0193,2025-07-21,2025-07-17,Yes,25,Female,45547,Asthma,DID010,Cardiology,8,BID0010,ICU,Public,12398.54,2025-07-26,Negative,2025-06-10,Ultrasound,7.43,6,No,2,Hospital 3,Karnataka
+PID0194,AID0194,2025-08-07,2025-07-31,No,42,Male,11672,COVID-19,DID005,Oncology,12,BID0037,ICU,Uninsured,43172.8,2025-07-13,Negative,2025-07-06,X-ray,10.72,7,No,3,Hospital 5,Karnataka
+PID0195,AID0195,2025-07-30,2025-07-29,Yes,21,Other,67292,Hypertension,DID026,Endocrinology,11,BID0082,General,Uninsured,48468.4,2025-07-10,Negative,2025-06-26,Ultrasound,11.91,4,No,2,Hospital 7,Karnataka
+PID0196,AID0196,2025-08-07,2025-07-29,No,38,Male,74629,Flu,DID024,General,12,BID0147,Surgery,Uninsured,2586.75,2025-07-09,Negative,2025-07-02,Ultrasound,3.7,10,No,4,Hospital 3,Karnataka
+PID0197,AID0197,2025-08-03,2025-07-05,No,31,Female,83323,Diabetes,DID006,General,14,BID0182,Pediatrics,Private,1558.39,2025-07-19,Negative,2025-06-14,Blood Test,5.58,2,No,1,Hospital 7,Delhi
+PID0198,AID0198,2025-07-13,2025-06-16,No,22,Female,37667,Hypertension,DID029,Endocrinology,6,BID0140,Surgery,Public,41611.54,2025-07-06,Negative,2025-06-04,Ultrasound,9.94,4,No,1,Hospital 1,Karnataka
+PID0199,AID0199,2025-08-04,2025-07-20,Yes,34,Male,37543,COVID-19,DID011,Cardiology,15,BID0097,General,Uninsured,4675.12,2025-07-21,Negative,2025-06-04,Blood Test,5.4,10,No,1,Hospital 7,Gujarat
+PID0200,AID0200,2025-07-30,2025-07-12,Yes,56,Male,26217,COVID-19,DID004,Pulmonology,4,BID0049,Surgery,Uninsured,28151.51,2025-07-04,Negative,2025-07-23,Ultrasound,4.35,5,No,1,Hospital 1,Delhi
+PID0201,AID0201,2025-07-11,2025-06-11,No,63,Male,66301,COVID-19,DID012,General,7,BID0023,Pediatrics,Uninsured,31629.46,2025-07-19,Negative,2025-06-26,Blood Test,0.87,3,No,1,Hospital 8,Maharashtra
+PID0202,AID0202,2025-07-25,2025-07-11,No,51,Female,85519,Hypertension,DID029,Pulmonology,2,BID0165,Surgery,Public,19180.01,2025-07-18,Negative,2025-06-27,MRI,6.96,5,No,3,Hospital 4,Karnataka
+PID0203,AID0203,2025-07-19,2025-07-09,No,20,Other,68612,Cancer,DID004,General,11,BID0089,Surgery,Uninsured,12148.13,2025-07-22,Positive,2025-07-21,CT Scan,12.37,7,No,4,Hospital 10,Tamil Nadu
+PID0204,AID0204,2025-08-01,2025-07-05,No,11,Female,80009,Cancer,DID002,Oncology,10,BID0133,General,Public,47513.49,2025-07-27,Negative,2025-07-03,MRI,14.6,4,No,4,Hospital 2,Gujarat
+PID0205,AID0205,2025-08-01,2025-06-05,No,81,Male,82064,Asthma,DID009,Pulmonology,15,BID0187,ICU,Public,20016.86,2025-07-11,Negative,2025-06-22,X-ray,12.92,9,No,1,Hospital 10,West Bengal
+PID0206,AID0206,2025-06-30,2025-06-23,No,54,Male,84547,Hypertension,DID005,Cardiology,10,BID0151,ICU,Public,28571.5,2025-07-24,Negative,2025-07-20,X-ray,13.08,6,No,3,Hospital 7,Gujarat
+PID0207,AID0207,2025-08-05,2025-07-09,No,78,Female,22229,COVID-19,DID006,Pulmonology,7,BID0037,Surgery,Public,20393.84,2025-07-07,Negative,2025-07-07,MRI,1.21,8,No,3,Hospital 1,Karnataka
+PID0208,AID0208,2025-07-09,2025-06-17,No,39,Female,83498,Diabetes,DID027,Endocrinology,14,BID0179,ICU,Public,7584.89,2025-07-21,Negative,2025-06-12,CT Scan,11.72,6,No,4,Hospital 10,Gujarat
+PID0209,AID0209,2025-06-20,2025-06-12,Yes,57,Male,07026,Hypertension,DID024,Endocrinology,13,BID0133,Pediatrics,Public,26248.22,2025-07-08,Negative,2025-06-04,X-ray,10.79,7,No,5,Hospital 10,Maharashtra
+PID0210,AID0210,2025-07-31,2025-07-27,Yes,26,Male,61163,Flu,DID002,Endocrinology,1,BID0093,General,Private,19049.24,2025-07-29,Negative,2025-07-03,CT Scan,9.71,2,No,2,Hospital 6,Delhi
+PID0211,AID0211,2025-07-01,2025-06-12,No,23,Female,13433,Asthma,DID018,Pulmonology,6,BID0042,Pediatrics,Uninsured,41712.64,2025-08-02,Positive,2025-06-21,Blood Test,6.11,3,No,2,Hospital 4,Gujarat
+PID0212,AID0212,2025-07-15,2025-07-01,No,27,Female,95325,Cancer,DID014,Oncology,1,BID0200,ICU,Private,45664.26,2025-08-02,Negative,2025-06-28,Ultrasound,12.11,4,No,3,Hospital 5,Delhi
+PID0213,AID0213,2025-07-25,2025-07-25,No,45,Female,26861,Diabetes,DID007,Endocrinology,5,BID0174,Surgery,Uninsured,6013.29,2025-07-31,Negative,2025-07-31,X-ray,8.64,10,No,3,Hospital 2,Delhi
+PID0214,AID0214,2025-07-14,2025-07-02,Yes,36,Other,18946,Diabetes,DID028,Pulmonology,5,BID0168,Pediatrics,Public,8346.54,2025-07-08,Negative,2025-07-19,Blood Test,12.18,10,No,3,Hospital 3,Gujarat
+PID0215,AID0215,2025-08-06,2025-08-01,Yes,64,Female,74609,Diabetes,DID030,Endocrinology,7,BID0100,ICU,Uninsured,35695.38,2025-07-13,Negative,2025-07-18,MRI,5.48,4,No,4,Hospital 6,West Bengal
+PID0216,AID0216,2025-06-22,2025-06-09,No,22,Other,12168,Asthma,DID006,Pulmonology,2,BID0121,General,Uninsured,13673.94,2025-07-16,Negative,2025-07-24,MRI,14.23,6,No,2,Hospital 6,Tamil Nadu
+PID0217,AID0217,2025-07-31,2025-07-15,No,40,Female,83171,Diabetes,DID012,Pulmonology,10,BID0076,Surgery,Public,24056.29,2025-08-02,Negative,2025-06-09,Ultrasound,8.91,10,Yes,2,Hospital 9,Maharashtra
+PID0218,AID0218,2025-07-24,2025-07-19,No,49,Other,83383,Diabetes,DID014,General,14,BID0039,General,Public,17790.82,2025-07-28,Negative,2025-07-26,CT Scan,2.58,3,No,4,Hospital 6,Gujarat
+PID0219,AID0219,2025-06-29,2025-06-09,No,41,Other,54691,COVID-19,DID001,Endocrinology,5,BID0054,General,Uninsured,38459.7,2025-07-11,Negative,2025-06-16,Blood Test,2.38,7,No,4,Hospital 7,Delhi
+PID0220,AID0220,2025-08-05,2025-08-01,No,5,Other,33598,Flu,DID024,Pulmonology,1,BID0083,General,Public,34160.66,2025-07-13,Negative,2025-07-20,MRI,3.78,6,No,1,Hospital 7,West Bengal
+PID0221,AID0221,2025-07-02,2025-06-15,No,22,Male,10961,COVID-19,DID010,Pulmonology,8,BID0187,Pediatrics,Private,44510.73,2025-07-11,Negative,2025-07-19,X-ray,14.94,8,No,2,Hospital 3,Delhi
+PID0222,AID0222,2025-07-13,2025-07-11,Yes,29,Other,85310,Flu,DID007,General,10,BID0130,General,Public,18962.98,2025-07-13,Negative,2025-07-20,Blood Test,5.94,5,No,5,Hospital 1,West Bengal
+PID0223,AID0223,2025-06-23,2025-06-20,No,85,Male,87990,Cancer,DID027,General,1,BID0177,ICU,Private,22771.4,2025-07-04,Negative,2025-07-12,X-ray,7.38,3,No,1,Hospital 5,Delhi
+PID0224,AID0224,2025-07-27,2025-06-23,No,85,Other,13222,Diabetes,DID020,Oncology,12,BID0036,Surgery,Public,26067.65,2025-07-20,Negative,2025-07-19,X-ray,2.15,2,No,5,Hospital 4,Karnataka
+PID0225,AID0225,2025-08-01,2025-07-30,No,26,Female,90707,Cancer,DID014,Pulmonology,3,BID0011,Surgery,Public,34721.99,2025-07-18,Negative,2025-06-18,MRI,0.54,2,No,5,Hospital 8,Tamil Nadu
+PID0226,AID0226,2025-07-20,2025-07-10,No,66,Male,99821,Cancer,DID024,General,15,BID0066,General,Private,49444.63,2025-07-25,Negative,2025-07-22,CT Scan,1.23,3,No,3,Hospital 6,Gujarat
+PID0227,AID0227,2025-08-01,2025-07-25,No,15,Male,08322,COVID-19,DID001,Cardiology,11,BID0166,General,Private,18518.84,2025-07-04,Negative,2025-06-21,Ultrasound,4.39,2,No,3,Hospital 3,Maharashtra
+PID0228,AID0228,2025-08-04,2025-07-17,No,59,Female,59960,Hypertension,DID023,Endocrinology,13,BID0108,General,Public,7493.07,2025-07-13,Negative,2025-07-12,MRI,2.0,10,No,5,Hospital 8,Tamil Nadu
+PID0229,AID0229,2025-08-03,2025-06-16,No,46,Other,76106,COVID-19,DID028,Cardiology,8,BID0125,ICU,Private,22593.71,2025-07-30,Positive,2025-06-05,X-ray,0.68,9,No,5,Hospital 10,Tamil Nadu
+PID0230,AID0230,2025-07-28,2025-06-04,No,86,Female,22412,Asthma,DID017,Oncology,2,BID0111,General,Private,17941.72,2025-07-23,Negative,2025-06-12,CT Scan,2.66,9,No,5,Hospital 1,Maharashtra
+PID0231,AID0231,2025-07-02,2025-06-16,No,21,Other,67455,Hypertension,DID028,Endocrinology,14,BID0043,ICU,Private,16711.06,2025-07-22,Negative,2025-06-13,X-ray,1.23,4,No,4,Hospital 7,Tamil Nadu
+PID0232,AID0232,2025-07-06,2025-06-15,Yes,57,Other,93124,Hypertension,DID003,Endocrinology,8,BID0081,ICU,Private,37516.71,2025-07-16,Positive,2025-07-14,CT Scan,6.48,9,No,1,Hospital 10,West Bengal
+PID0233,AID0233,2025-08-02,2025-07-31,No,66,Other,52838,Flu,DID021,Endocrinology,6,BID0094,ICU,Public,42371.55,2025-07-05,Negative,2025-07-24,Ultrasound,9.2,6,No,1,Hospital 2,Gujarat
+PID0234,AID0234,2025-07-18,2025-06-26,No,44,Female,98711,Cancer,DID026,Pulmonology,9,BID0134,Pediatrics,Uninsured,6209.79,2025-07-23,Negative,2025-07-06,CT Scan,2.54,7,No,5,Hospital 4,Tamil Nadu
+PID0235,AID0235,2025-06-28,2025-06-06,Yes,51,Male,17987,Hypertension,DID027,Cardiology,12,BID0087,ICU,Private,3278.52,2025-07-08,Negative,2025-07-13,Ultrasound,2.29,8,No,5,Hospital 9,Tamil Nadu
+PID0236,AID0236,2025-08-07,2025-07-27,No,1,Other,38856,Cancer,DID002,Oncology,15,BID0111,Surgery,Uninsured,39272.99,2025-07-22,Negative,2025-07-24,Ultrasound,3.02,3,No,5,Hospital 10,Karnataka
+PID0237,AID0237,2025-07-25,2025-07-13,No,50,Female,03748,Asthma,DID030,Cardiology,5,BID0102,Pediatrics,Private,23189.44,2025-07-18,Negative,2025-07-07,CT Scan,9.24,9,No,5,Hospital 6,Gujarat
+PID0238,AID0238,2025-08-01,2025-07-30,No,71,Other,29872,Flu,DID007,Cardiology,10,BID0183,Pediatrics,Uninsured,17919.39,2025-07-07,Negative,2025-06-23,MRI,7.81,6,No,3,Hospital 9,Delhi
+PID0239,AID0239,2025-08-03,2025-07-29,No,86,Other,74643,Hypertension,DID022,Oncology,5,BID0109,ICU,Uninsured,6217.05,2025-07-24,Negative,2025-07-23,Blood Test,10.22,4,No,2,Hospital 5,Gujarat
+PID0240,AID0240,2025-06-21,2025-06-20,No,8,Other,04186,Diabetes,DID007,Oncology,1,BID0092,Surgery,Public,31189.33,2025-07-07,Negative,2025-08-02,Ultrasound,13.04,9,No,5,Hospital 5,Gujarat
+PID0241,AID0241,2025-06-17,2025-06-17,No,49,Female,89905,Hypertension,DID026,Pulmonology,9,BID0014,ICU,Uninsured,13315.72,2025-07-24,Negative,2025-06-10,CT Scan,12.53,6,No,5,Hospital 10,Tamil Nadu
+PID0242,AID0242,2025-07-07,2025-06-13,No,25,Female,71381,Hypertension,DID006,General,3,BID0045,ICU,Private,2991.08,2025-08-01,Negative,2025-07-17,X-ray,2.39,10,No,1,Hospital 6,Delhi
+PID0243,AID0243,2025-07-06,2025-07-02,No,20,Male,94632,Flu,DID030,Pulmonology,10,BID0014,Pediatrics,Private,39705.5,2025-07-07,Negative,2025-06-20,Blood Test,11.87,6,No,2,Hospital 9,Maharashtra
+PID0244,AID0244,2025-07-28,2025-07-07,No,21,Female,39490,Asthma,DID018,Endocrinology,2,BID0090,General,Public,33503.39,2025-07-21,Negative,2025-07-14,X-ray,3.67,10,No,5,Hospital 1,Maharashtra
+PID0245,AID0245,2025-08-01,2025-07-23,No,58,Male,16201,Cancer,DID020,Oncology,4,BID0011,Pediatrics,Private,45880.69,2025-08-01,Negative,2025-07-14,CT Scan,4.22,5,Yes,5,Hospital 6,West Bengal
+PID0246,AID0246,2025-08-03,2025-07-12,No,58,Female,88499,COVID-19,DID010,Cardiology,6,BID0132,ICU,Public,9202.35,2025-07-07,Negative,2025-06-24,Ultrasound,8.23,2,No,2,Hospital 7,Maharashtra
+PID0247,AID0247,2025-07-18,2025-07-18,No,90,Other,22783,Hypertension,DID021,General,12,BID0176,General,Public,23502.04,2025-07-13,Negative,2025-07-28,Blood Test,1.56,3,No,5,Hospital 2,West Bengal
+PID0248,AID0248,2025-06-28,2025-06-10,No,34,Female,78849,Hypertension,DID015,Endocrinology,7,BID0081,ICU,Private,33991.64,2025-07-28,Negative,2025-06-18,Ultrasound,1.42,10,Yes,1,Hospital 6,West Bengal
+PID0249,AID0249,2025-08-02,2025-07-25,Yes,88,Female,85914,Asthma,DID003,Pulmonology,13,BID0113,Surgery,Private,41284.0,2025-07-05,Positive,2025-07-15,MRI,8.24,3,No,5,Hospital 5,Gujarat
+PID0250,AID0250,2025-08-07,2025-07-28,Yes,87,Other,68395,Cancer,DID012,General,9,BID0143,General,Public,3046.88,2025-07-22,Negative,2025-06-13,CT Scan,8.29,2,No,3,Hospital 4,Delhi
+PID0251,AID0251,2025-08-05,2025-07-04,No,66,Male,92742,Flu,DID006,Cardiology,10,BID0065,General,Public,9886.54,2025-07-07,Negative,2025-06-12,Blood Test,12.85,9,No,5,Hospital 2,Karnataka
+PID0252,AID0252,2025-07-17,2025-07-04,No,33,Male,46118,Flu,DID024,Oncology,8,BID0085,Pediatrics,Public,33893.48,2025-07-25,Negative,2025-07-06,X-ray,9.48,4,No,4,Hospital 6,West Bengal
+PID0253,AID0253,2025-07-17,2025-06-27,No,89,Other,59294,Flu,DID019,Oncology,6,BID0081,Surgery,Public,1236.76,2025-07-21,Negative,2025-06-12,MRI,10.83,7,No,3,Hospital 3,Gujarat
+PID0254,AID0254,2025-07-02,2025-07-01,No,62,Female,56804,Hypertension,DID012,Pulmonology,8,BID0142,ICU,Public,32632.03,2025-07-17,Positive,2025-07-11,X-ray,12.95,3,No,2,Hospital 5,Gujarat
+PID0255,AID0255,2025-07-18,2025-06-30,No,10,Other,11815,COVID-19,DID029,General,14,BID0130,ICU,Uninsured,29366.14,2025-07-15,Negative,2025-08-02,MRI,13.64,9,No,5,Hospital 8,Gujarat
+PID0256,AID0256,2025-08-02,2025-07-21,No,47,Female,02483,Flu,DID029,Oncology,12,BID0075,General,Private,25555.04,2025-07-10,Positive,2025-07-08,X-ray,7.78,4,No,5,Hospital 3,West Bengal
+PID0257,AID0257,2025-07-30,2025-07-13,Yes,21,Male,48345,Asthma,DID019,Cardiology,12,BID0188,Surgery,Private,2980.57,2025-07-17,Negative,2025-07-20,MRI,1.41,6,No,2,Hospital 9,Karnataka
+PID0258,AID0258,2025-06-29,2025-06-23,No,59,Male,17997,COVID-19,DID021,Pulmonology,2,BID0181,Pediatrics,Uninsured,13902.49,2025-07-08,Negative,2025-07-28,MRI,5.96,7,No,1,Hospital 9,Karnataka
+PID0259,AID0259,2025-07-05,2025-06-12,No,29,Other,56271,Hypertension,DID012,Pulmonology,8,BID0124,ICU,Uninsured,44219.68,2025-08-01,Negative,2025-06-26,MRI,1.62,5,No,2,Hospital 3,Karnataka
+PID0260,AID0260,2025-07-30,2025-07-23,No,16,Other,44963,Flu,DID014,Pulmonology,12,BID0030,Surgery,Uninsured,24461.92,2025-07-19,Negative,2025-07-22,MRI,9.89,7,Yes,1,Hospital 3,West Bengal
+PID0261,AID0261,2025-07-07,2025-06-16,No,18,Other,36249,Asthma,DID002,Oncology,3,BID0015,General,Private,46199.9,2025-07-07,Negative,2025-06-17,CT Scan,9.19,10,No,3,Hospital 2,Tamil Nadu
+PID0262,AID0262,2025-07-22,2025-06-22,No,61,Female,82076,Flu,DID008,Endocrinology,10,BID0037,General,Uninsured,33322.79,2025-07-11,Negative,2025-06-17,X-ray,13.87,10,No,2,Hospital 7,Delhi
+PID0263,AID0263,2025-08-04,2025-07-20,Yes,3,Male,26925,Asthma,DID028,Oncology,11,BID0108,General,Uninsured,5718.63,2025-07-18,Negative,2025-06-18,Ultrasound,9.2,9,No,1,Hospital 2,Delhi
+PID0264,AID0264,2025-08-02,2025-07-24,No,78,Other,23784,COVID-19,DID029,Endocrinology,9,BID0108,Pediatrics,Public,35184.5,2025-07-17,Negative,2025-07-04,CT Scan,11.95,7,No,5,Hospital 2,Delhi
+PID0265,AID0265,2025-08-07,2025-07-18,Yes,62,Male,78692,COVID-19,DID010,Oncology,15,BID0140,Surgery,Private,10262.03,2025-07-31,Negative,2025-07-29,Blood Test,8.88,2,No,4,Hospital 4,Gujarat
+PID0266,AID0266,2025-08-07,2025-06-13,No,53,Female,97103,COVID-19,DID005,Endocrinology,11,BID0150,Pediatrics,Private,42893.87,2025-07-19,Negative,2025-07-29,X-ray,9.37,7,No,4,Hospital 9,West Bengal
+PID0267,AID0267,2025-07-23,2025-06-25,No,48,Other,33835,Asthma,DID016,Pulmonology,5,BID0148,Pediatrics,Uninsured,20508.36,2025-07-09,Negative,2025-07-09,Blood Test,11.34,8,No,2,Hospital 2,Tamil Nadu
+PID0268,AID0268,2025-07-07,2025-06-30,No,44,Other,90812,Asthma,DID023,General,3,BID0100,ICU,Public,41339.52,2025-07-20,Negative,2025-06-21,Ultrasound,6.81,2,No,3,Hospital 2,West Bengal
+PID0269,AID0269,2025-08-07,2025-07-21,Yes,50,Female,04110,Asthma,DID021,Oncology,5,BID0183,ICU,Public,32374.27,2025-07-04,Negative,2025-06-24,MRI,12.83,9,No,1,Hospital 10,West Bengal
+PID0270,AID0270,2025-08-02,2025-07-27,No,30,Other,03630,Flu,DID022,General,6,BID0062,ICU,Public,5255.3,2025-07-06,Negative,2025-06-11,CT Scan,5.62,7,No,2,Hospital 9,Maharashtra
+PID0271,AID0271,2025-07-31,2025-07-05,No,9,Male,08716,Asthma,DID010,Oncology,15,BID0150,Pediatrics,Private,48201.1,2025-07-11,Negative,2025-06-28,Ultrasound,14.46,8,No,5,Hospital 1,Karnataka
+PID0272,AID0272,2025-07-22,2025-07-18,Yes,65,Male,03036,Asthma,DID003,Oncology,5,BID0088,ICU,Uninsured,47878.76,2025-07-16,Negative,2025-06-13,Ultrasound,4.13,8,No,5,Hospital 8,Tamil Nadu
+PID0273,AID0273,2025-07-28,2025-07-24,No,59,Other,93016,Hypertension,DID029,Oncology,14,BID0008,Surgery,Public,13633.17,2025-07-15,Negative,2025-07-01,MRI,10.32,4,No,4,Hospital 6,West Bengal
+PID0274,AID0274,2025-08-04,2025-07-26,No,90,Female,71188,Flu,DID010,General,7,BID0173,Pediatrics,Public,28173.02,2025-07-15,Negative,2025-07-29,X-ray,5.63,10,No,2,Hospital 8,Gujarat
+PID0275,AID0275,2025-07-05,2025-06-19,Yes,31,Female,55662,Flu,DID008,Cardiology,14,BID0064,Pediatrics,Public,39167.99,2025-07-22,Negative,2025-07-02,Blood Test,10.3,8,No,5,Hospital 1,Delhi
+PID0276,AID0276,2025-06-22,2025-06-04,No,41,Female,14361,Asthma,DID028,Pulmonology,8,BID0047,Pediatrics,Private,11882.55,2025-07-29,Negative,2025-06-18,Blood Test,8.12,7,No,5,Hospital 1,West Bengal
+PID0277,AID0277,2025-07-21,2025-07-18,No,88,Male,95415,Hypertension,DID004,Oncology,8,BID0081,ICU,Public,34031.05,2025-07-21,Negative,2025-06-20,Blood Test,5.22,10,No,2,Hospital 9,Karnataka
+PID0278,AID0278,2025-06-19,2025-06-06,No,61,Other,34112,Diabetes,DID012,Cardiology,8,BID0109,General,Private,35334.92,2025-08-01,Negative,2025-06-20,CT Scan,4.55,3,No,5,Hospital 4,Maharashtra
+PID0279,AID0279,2025-07-27,2025-07-10,No,31,Other,34301,Hypertension,DID028,Endocrinology,4,BID0038,General,Private,40477.75,2025-07-09,Negative,2025-06-14,CT Scan,2.45,9,No,3,Hospital 8,Karnataka
+PID0280,AID0280,2025-08-06,2025-07-23,No,73,Male,71378,Hypertension,DID004,Cardiology,1,BID0056,Pediatrics,Private,42109.61,2025-07-11,Positive,2025-06-27,X-ray,4.27,6,No,3,Hospital 6,Maharashtra
+PID0281,AID0281,2025-07-26,2025-07-22,No,45,Other,70511,Asthma,DID007,Oncology,10,BID0167,General,Private,18400.34,2025-07-06,Negative,2025-06-06,CT Scan,11.73,8,No,4,Hospital 10,Karnataka
+PID0282,AID0282,2025-07-17,2025-07-13,No,19,Male,48534,Cancer,DID026,Pulmonology,7,BID0162,Surgery,Public,4876.48,2025-07-22,Negative,2025-06-23,X-ray,5.09,5,No,5,Hospital 7,Karnataka
+PID0283,AID0283,2025-07-07,2025-06-15,No,47,Other,74484,Asthma,DID017,Endocrinology,7,BID0043,General,Public,7126.96,2025-07-13,Negative,2025-06-22,X-ray,14.14,2,No,4,Hospital 2,Maharashtra
+PID0284,AID0284,2025-07-28,2025-06-07,Yes,61,Other,64643,COVID-19,DID001,Endocrinology,9,BID0196,ICU,Public,13860.16,2025-07-19,Negative,2025-07-29,CT Scan,4.99,4,No,4,Hospital 3,Tamil Nadu
+PID0285,AID0285,2025-06-26,2025-06-10,No,22,Male,94321,COVID-19,DID022,Pulmonology,14,BID0084,Surgery,Private,48774.1,2025-07-23,Negative,2025-06-24,X-ray,8.45,3,No,5,Hospital 3,West Bengal
+PID0286,AID0286,2025-08-02,2025-06-12,No,81,Other,73725,Cancer,DID029,Oncology,7,BID0135,Pediatrics,Private,24600.93,2025-07-27,Negative,2025-07-21,Blood Test,6.91,6,No,2,Hospital 5,Maharashtra
+PID0287,AID0287,2025-06-24,2025-06-14,Yes,18,Female,74634,Diabetes,DID016,Oncology,1,BID0177,Surgery,Private,15680.92,2025-07-16,Negative,2025-06-17,X-ray,9.16,1,No,2,Hospital 7,West Bengal
+PID0288,AID0288,2025-07-22,2025-07-07,No,32,Male,65695,Cancer,DID024,Endocrinology,14,BID0097,General,Private,4881.28,2025-07-25,Negative,2025-06-04,Ultrasound,11.59,10,No,3,Hospital 5,Gujarat
+PID0289,AID0289,2025-07-24,2025-06-20,No,35,Female,47368,Flu,DID028,General,3,BID0035,Pediatrics,Public,32207.74,2025-07-15,Negative,2025-07-25,X-ray,10.66,8,No,1,Hospital 3,Maharashtra
+PID0290,AID0290,2025-06-27,2025-06-13,No,3,Male,62717,COVID-19,DID010,Pulmonology,3,BID0184,Surgery,Uninsured,1402.0,2025-08-02,Positive,2025-07-27,Blood Test,7.66,6,No,4,Hospital 6,Delhi
+PID0291,AID0291,2025-08-04,2025-06-20,No,5,Female,94850,COVID-19,DID027,Cardiology,1,BID0069,Surgery,Public,27616.41,2025-07-09,Negative,2025-07-15,X-ray,12.35,1,No,2,Hospital 7,Delhi
+PID0292,AID0292,2025-06-25,2025-06-05,No,5,Male,18292,Hypertension,DID024,General,9,BID0171,General,Private,20067.03,2025-07-16,Negative,2025-07-28,X-ray,2.8,1,No,5,Hospital 9,Maharashtra
+PID0293,AID0293,2025-06-21,2025-06-10,No,82,Female,21821,Flu,DID012,General,14,BID0171,General,Public,12562.33,2025-07-12,Negative,2025-07-16,Blood Test,2.93,5,No,4,Hospital 4,Maharashtra
+PID0294,AID0294,2025-07-30,2025-06-21,No,75,Other,23960,Hypertension,DID023,Oncology,3,BID0096,ICU,Public,8727.22,2025-07-12,Positive,2025-06-19,Ultrasound,5.41,1,Yes,2,Hospital 9,Maharashtra
+PID0295,AID0295,2025-08-07,2025-07-19,Yes,30,Female,79195,Asthma,DID026,Pulmonology,13,BID0113,General,Public,34773.25,2025-08-01,Negative,2025-07-04,MRI,4.14,1,No,4,Hospital 9,Karnataka
+PID0296,AID0296,2025-08-07,2025-07-31,No,63,Male,09443,Asthma,DID006,Oncology,6,BID0083,Surgery,Private,43515.43,2025-07-07,Negative,2025-07-09,Ultrasound,2.82,9,No,3,Hospital 5,West Bengal
+PID0297,AID0297,2025-06-24,2025-06-12,No,1,Other,08671,Asthma,DID013,Cardiology,15,BID0005,Pediatrics,Uninsured,12700.54,2025-07-05,Negative,2025-07-18,Ultrasound,12.38,4,No,4,Hospital 9,Tamil Nadu
+PID0298,AID0298,2025-08-04,2025-06-18,No,42,Female,94379,Cancer,DID011,General,2,BID0134,ICU,Public,41924.47,2025-07-07,Negative,2025-06-05,Blood Test,3.43,8,No,1,Hospital 10,Gujarat
+PID0299,AID0299,2025-07-20,2025-07-06,No,85,Female,88002,Asthma,DID020,Oncology,5,BID0013,Pediatrics,Public,30691.73,2025-08-02,Positive,2025-07-20,MRI,10.01,2,No,1,Hospital 6,West Bengal
+PID0300,AID0300,2025-08-02,2025-07-26,No,54,Female,48957,Cancer,DID002,Oncology,5,BID0136,ICU,Uninsured,4449.02,2025-07-20,Negative,2025-06-12,MRI,14.43,2,No,2,Hospital 9,Delhi
+PID0301,AID0301,2025-07-29,2025-07-10,Yes,68,Other,69563,Flu,DID019,Cardiology,9,BID0192,Surgery,Uninsured,6170.19,2025-07-06,Negative,2025-07-25,X-ray,10.28,7,No,2,Hospital 3,West Bengal
+PID0302,AID0302,2025-08-02,2025-07-27,No,44,Other,06252,Flu,DID018,Oncology,8,BID0091,Pediatrics,Uninsured,49581.69,2025-07-21,Negative,2025-07-04,X-ray,6.48,7,No,3,Hospital 10,Tamil Nadu
+PID0303,AID0303,2025-07-09,2025-06-05,No,28,Female,16889,Asthma,DID030,Pulmonology,6,BID0116,Surgery,Private,1009.59,2025-07-16,Positive,2025-07-15,X-ray,9.14,9,No,3,Hospital 1,Karnataka
+PID0304,AID0304,2025-07-05,2025-06-08,No,28,Female,39852,COVID-19,DID025,Pulmonology,15,BID0142,General,Public,2849.08,2025-07-18,Negative,2025-06-30,MRI,4.34,10,No,3,Hospital 5,Maharashtra
+PID0305,AID0305,2025-08-01,2025-06-23,No,73,Male,03373,Cancer,DID003,Pulmonology,13,BID0124,General,Private,41459.56,2025-07-22,Negative,2025-06-17,Ultrasound,12.38,2,No,3,Hospital 1,Gujarat
+PID0306,AID0306,2025-06-14,2025-06-10,No,49,Male,34650,COVID-19,DID030,Pulmonology,6,BID0112,Surgery,Public,43619.54,2025-07-11,Negative,2025-07-03,Ultrasound,13.97,7,Yes,5,Hospital 1,Karnataka
+PID0307,AID0307,2025-08-01,2025-07-19,No,20,Female,76306,Asthma,DID023,Cardiology,3,BID0013,Surgery,Private,37889.17,2025-07-08,Negative,2025-06-25,Blood Test,3.72,5,No,2,Hospital 3,Karnataka
+PID0308,AID0308,2025-06-13,2025-06-08,Yes,74,Other,30950,COVID-19,DID018,Endocrinology,5,BID0022,Surgery,Uninsured,22290.06,2025-07-19,Negative,2025-06-24,MRI,7.47,4,No,5,Hospital 4,West Bengal
+PID0309,AID0309,2025-08-06,2025-06-25,No,68,Male,62499,Flu,DID003,Pulmonology,13,BID0111,Pediatrics,Uninsured,46282.77,2025-08-01,Positive,2025-07-13,CT Scan,6.64,6,No,3,Hospital 10,Gujarat
+PID0310,AID0310,2025-06-13,2025-06-04,Yes,40,Male,54646,Diabetes,DID020,Endocrinology,10,BID0038,Surgery,Public,46286.45,2025-07-07,Negative,2025-07-04,X-ray,2.76,2,No,1,Hospital 4,West Bengal
+PID0311,AID0311,2025-08-02,2025-07-29,No,37,Male,99941,Diabetes,DID023,General,5,BID0116,Surgery,Public,17261.96,2025-07-07,Negative,2025-06-06,MRI,3.46,9,No,5,Hospital 8,West Bengal
+PID0312,AID0312,2025-07-22,2025-06-28,No,19,Other,98646,Cancer,DID022,General,7,BID0150,ICU,Private,9345.66,2025-07-30,Negative,2025-07-05,Ultrasound,4.43,8,No,1,Hospital 2,Delhi
+PID0313,AID0313,2025-08-06,2025-07-29,No,85,Other,39047,Diabetes,DID028,General,1,BID0075,Surgery,Public,49009.85,2025-07-15,Negative,2025-06-08,Blood Test,13.61,8,No,5,Hospital 2,Tamil Nadu
+PID0314,AID0314,2025-07-29,2025-07-23,Yes,59,Other,48105,Cancer,DID001,General,4,BID0136,Pediatrics,Private,25006.71,2025-07-04,Negative,2025-06-14,Blood Test,5.53,6,No,3,Hospital 4,West Bengal
+PID0315,AID0315,2025-08-07,2025-07-10,No,8,Other,54825,Diabetes,DID029,Endocrinology,15,BID0008,Pediatrics,Public,8433.7,2025-07-17,Negative,2025-06-13,MRI,1.77,7,No,5,Hospital 4,Delhi
+PID0316,AID0316,2025-08-02,2025-07-22,No,20,Female,79614,Diabetes,DID030,Oncology,6,BID0115,General,Public,32971.16,2025-07-09,Negative,2025-06-26,MRI,13.01,5,No,5,Hospital 3,Delhi
+PID0317,AID0317,2025-07-23,2025-07-18,No,19,Other,49997,Asthma,DID030,Cardiology,6,BID0018,ICU,Public,16562.28,2025-07-13,Negative,2025-07-31,Blood Test,11.6,7,No,3,Hospital 8,Gujarat
+PID0318,AID0318,2025-08-05,2025-07-16,No,82,Other,10928,Diabetes,DID005,Cardiology,2,BID0034,General,Public,38359.93,2025-07-23,Negative,2025-06-16,X-ray,9.28,10,No,2,Hospital 4,Gujarat
+PID0319,AID0319,2025-07-20,2025-06-09,Yes,11,Other,45884,Hypertension,DID005,Oncology,14,BID0155,Surgery,Uninsured,32828.86,2025-07-05,Negative,2025-06-13,CT Scan,7.63,3,No,2,Hospital 1,Delhi
+PID0320,AID0320,2025-08-05,2025-07-31,No,2,Female,91866,Hypertension,DID008,Cardiology,13,BID0053,ICU,Public,46428.06,2025-07-14,Negative,2025-07-24,Ultrasound,7.6,6,No,2,Hospital 7,Delhi
+PID0321,AID0321,2025-07-20,2025-07-10,No,78,Other,93912,Hypertension,DID024,Pulmonology,7,BID0157,ICU,Uninsured,6356.5,2025-07-23,Negative,2025-06-24,Blood Test,13.23,4,No,4,Hospital 1,West Bengal
+PID0322,AID0322,2025-07-30,2025-07-16,No,81,Male,27769,Flu,DID010,Endocrinology,7,BID0078,Pediatrics,Private,9157.84,2025-07-30,Negative,2025-06-21,Blood Test,10.5,3,No,4,Hospital 2,Gujarat
+PID0323,AID0323,2025-08-02,2025-06-18,No,24,Other,87760,Cancer,DID018,Cardiology,7,BID0106,Pediatrics,Private,2220.69,2025-07-23,Negative,2025-07-21,MRI,13.3,2,No,2,Hospital 2,Maharashtra
+PID0324,AID0324,2025-07-28,2025-07-27,Yes,58,Other,82811,Diabetes,DID003,Oncology,12,BID0099,General,Private,27966.95,2025-07-10,Positive,2025-07-07,MRI,13.73,10,No,2,Hospital 3,Tamil Nadu
+PID0325,AID0325,2025-07-14,2025-07-12,Yes,7,Female,58692,Diabetes,DID010,Endocrinology,5,BID0161,General,Public,45028.55,2025-07-04,Negative,2025-07-23,Blood Test,9.53,5,Yes,4,Hospital 8,West Bengal
+PID0326,AID0326,2025-08-07,2025-06-09,No,78,Female,75903,Flu,DID007,Oncology,11,BID0122,Surgery,Private,22651.89,2025-07-10,Negative,2025-07-01,Blood Test,4.05,9,No,5,Hospital 4,Maharashtra
+PID0327,AID0327,2025-07-02,2025-06-12,Yes,8,Other,68219,Diabetes,DID002,Cardiology,14,BID0009,Pediatrics,Private,46098.85,2025-07-14,Positive,2025-07-30,CT Scan,14.91,3,No,5,Hospital 10,West Bengal
+PID0328,AID0328,2025-08-03,2025-07-27,No,23,Female,16506,Cancer,DID019,Pulmonology,15,BID0010,ICU,Private,16818.27,2025-07-30,Negative,2025-06-11,Blood Test,11.5,9,Yes,4,Hospital 3,Maharashtra
+PID0329,AID0329,2025-08-06,2025-06-04,No,36,Female,72117,Asthma,DID014,Oncology,4,BID0179,General,Uninsured,3851.04,2025-07-11,Negative,2025-07-18,Ultrasound,14.81,8,No,5,Hospital 5,Delhi
+PID0330,AID0330,2025-07-28,2025-07-01,No,41,Female,61416,Asthma,DID019,Oncology,6,BID0034,Surgery,Uninsured,36730.05,2025-07-10,Negative,2025-07-04,MRI,13.31,4,No,2,Hospital 1,Maharashtra
+PID0331,AID0331,2025-07-15,2025-07-09,Yes,81,Male,18283,Cancer,DID028,Cardiology,13,BID0158,Surgery,Private,3229.12,2025-08-01,Negative,2025-06-18,MRI,0.66,4,No,3,Hospital 2,Karnataka
+PID0332,AID0332,2025-07-27,2025-06-09,No,71,Female,16396,COVID-19,DID004,Pulmonology,6,BID0102,ICU,Public,10506.76,2025-07-18,Negative,2025-07-31,CT Scan,13.78,1,No,4,Hospital 3,Gujarat
+PID0333,AID0333,2025-07-31,2025-06-12,No,69,Female,94752,Hypertension,DID026,Endocrinology,15,BID0191,ICU,Uninsured,15667.84,2025-07-05,Negative,2025-06-21,X-ray,8.55,1,No,3,Hospital 6,Maharashtra
+PID0334,AID0334,2025-07-07,2025-06-06,No,36,Male,86121,Diabetes,DID013,Oncology,14,BID0043,Surgery,Public,30164.4,2025-07-17,Negative,2025-06-28,X-ray,10.73,6,No,3,Hospital 7,Maharashtra
+PID0335,AID0335,2025-07-20,2025-06-09,No,31,Female,68496,Hypertension,DID027,Pulmonology,4,BID0135,Pediatrics,Public,6499.33,2025-07-30,Negative,2025-06-10,MRI,13.74,8,No,4,Hospital 9,Tamil Nadu
+PID0336,AID0336,2025-07-22,2025-06-06,Yes,62,Other,64678,Asthma,DID010,Pulmonology,3,BID0197,ICU,Uninsured,34159.15,2025-07-28,Negative,2025-06-24,Blood Test,7.16,9,No,3,Hospital 1,Gujarat
+PID0337,AID0337,2025-06-20,2025-06-12,No,12,Female,63046,Hypertension,DID029,General,2,BID0134,Pediatrics,Public,29300.43,2025-07-08,Negative,2025-07-02,MRI,5.15,4,No,5,Hospital 6,Delhi
+PID0338,AID0338,2025-08-03,2025-07-28,No,35,Male,25723,Flu,DID009,General,1,BID0160,ICU,Public,27583.91,2025-07-05,Negative,2025-07-06,X-ray,2.55,5,No,2,Hospital 2,Karnataka
+PID0339,AID0339,2025-08-07,2025-07-30,No,44,Other,03398,Hypertension,DID002,Cardiology,1,BID0121,ICU,Public,19796.38,2025-07-14,Positive,2025-07-18,CT Scan,3.1,10,No,4,Hospital 10,Karnataka
+PID0340,AID0340,2025-07-06,2025-06-29,No,26,Other,14411,Cancer,DID026,Oncology,2,BID0194,Surgery,Uninsured,7457.97,2025-08-01,Negative,2025-06-16,CT Scan,1.91,5,No,4,Hospital 8,Tamil Nadu
+PID0341,AID0341,2025-07-12,2025-06-23,No,19,Other,53189,Diabetes,DID030,Pulmonology,7,BID0047,Pediatrics,Private,23210.87,2025-07-11,Positive,2025-06-24,CT Scan,2.14,8,No,2,Hospital 5,Karnataka
+PID0342,AID0342,2025-08-01,2025-07-28,No,17,Other,63409,COVID-19,DID013,General,6,BID0143,ICU,Private,27104.53,2025-07-08,Negative,2025-06-25,CT Scan,3.96,4,No,4,Hospital 7,Maharashtra
+PID0343,AID0343,2025-07-12,2025-07-01,No,89,Other,91912,Hypertension,DID026,Endocrinology,10,BID0088,General,Public,33468.0,2025-07-07,Positive,2025-06-08,Ultrasound,12.63,2,No,4,Hospital 6,West Bengal
+PID0344,AID0344,2025-07-25,2025-06-22,Yes,57,Male,48719,Diabetes,DID013,General,10,BID0028,Surgery,Private,25220.46,2025-07-22,Negative,2025-07-09,Blood Test,3.66,3,No,1,Hospital 3,Gujarat
+PID0345,AID0345,2025-06-24,2025-06-12,Yes,69,Female,07548,Hypertension,DID020,Oncology,8,BID0051,General,Uninsured,43993.84,2025-07-17,Negative,2025-06-24,X-ray,13.82,7,No,3,Hospital 2,West Bengal
+PID0346,AID0346,2025-07-23,2025-07-18,Yes,66,Female,70516,Flu,DID028,Pulmonology,1,BID0095,ICU,Public,35464.35,2025-07-26,Negative,2025-07-18,X-ray,2.09,5,No,2,Hospital 7,Gujarat
+PID0347,AID0347,2025-06-25,2025-06-19,No,81,Female,96440,Cancer,DID013,Endocrinology,7,BID0112,General,Uninsured,9497.1,2025-07-25,Negative,2025-06-12,Ultrasound,6.08,6,No,2,Hospital 5,Gujarat
+PID0348,AID0348,2025-08-01,2025-07-10,Yes,2,Male,13745,Cancer,DID001,Cardiology,12,BID0125,Surgery,Public,5148.51,2025-07-18,Negative,2025-07-28,CT Scan,12.97,10,No,5,Hospital 3,Delhi
+PID0349,AID0349,2025-07-25,2025-07-19,No,71,Female,32070,Hypertension,DID012,Cardiology,3,BID0109,ICU,Uninsured,25409.69,2025-07-09,Negative,2025-06-16,Ultrasound,4.4,9,No,1,Hospital 1,West Bengal
+PID0350,AID0350,2025-07-30,2025-06-30,No,48,Male,33929,Asthma,DID016,General,3,BID0187,Pediatrics,Private,26330.53,2025-07-17,Negative,2025-07-28,Ultrasound,1.78,8,No,1,Hospital 9,West Bengal
+PID0351,AID0351,2025-07-15,2025-06-08,No,7,Female,57085,Asthma,DID025,General,8,BID0117,Surgery,Uninsured,36956.91,2025-07-10,Negative,2025-07-06,X-ray,4.69,1,No,5,Hospital 5,Gujarat
+PID0352,AID0352,2025-07-09,2025-06-29,No,34,Male,83983,Cancer,DID016,Oncology,3,BID0147,ICU,Uninsured,49527.88,2025-07-13,Negative,2025-07-14,Ultrasound,0.9,8,Yes,5,Hospital 2,Karnataka
+PID0353,AID0353,2025-06-26,2025-06-12,No,79,Female,33916,Diabetes,DID028,Pulmonology,1,BID0190,ICU,Uninsured,9556.08,2025-07-30,Negative,2025-07-29,MRI,10.06,6,No,3,Hospital 4,Delhi
+PID0354,AID0354,2025-07-28,2025-07-24,Yes,68,Male,86340,Diabetes,DID003,Cardiology,10,BID0040,Surgery,Private,38748.02,2025-07-11,Negative,2025-07-16,CT Scan,11.03,3,No,3,Hospital 1,Gujarat
+PID0355,AID0355,2025-07-12,2025-06-14,No,15,Male,57727,Flu,DID015,Endocrinology,8,BID0078,Surgery,Uninsured,47464.34,2025-07-19,Negative,2025-06-06,MRI,6.01,7,No,2,Hospital 9,Delhi
+PID0356,AID0356,2025-06-23,2025-06-04,Yes,58,Female,01589,Cancer,DID011,Oncology,11,BID0011,ICU,Uninsured,32233.78,2025-07-09,Negative,2025-06-25,CT Scan,9.35,5,No,3,Hospital 2,Karnataka
+PID0357,AID0357,2025-07-19,2025-06-20,No,51,Female,34862,Cancer,DID024,Cardiology,12,BID0173,General,Uninsured,17532.92,2025-07-30,Negative,2025-06-15,MRI,5.04,1,No,1,Hospital 1,Delhi
+PID0358,AID0358,2025-07-22,2025-07-20,Yes,14,Other,87335,Hypertension,DID012,Cardiology,12,BID0073,Pediatrics,Public,2668.05,2025-07-07,Negative,2025-07-23,Blood Test,14.11,4,No,1,Hospital 2,Maharashtra
+PID0359,AID0359,2025-08-04,2025-06-14,No,17,Female,71583,Cancer,DID025,Oncology,13,BID0048,ICU,Uninsured,10028.89,2025-07-16,Negative,2025-06-23,Blood Test,9.76,5,No,3,Hospital 5,Tamil Nadu
+PID0360,AID0360,2025-06-25,2025-06-19,No,36,Male,93146,Hypertension,DID013,Pulmonology,1,BID0067,Pediatrics,Public,22588.17,2025-07-06,Negative,2025-07-05,MRI,9.35,3,No,1,Hospital 3,West Bengal
+PID0361,AID0361,2025-08-05,2025-07-06,No,28,Other,44108,Cancer,DID004,Endocrinology,12,BID0067,ICU,Public,4573.06,2025-07-28,Negative,2025-06-23,X-ray,11.77,1,No,2,Hospital 1,Maharashtra
+PID0362,AID0362,2025-07-11,2025-06-30,No,35,Male,60514,Cancer,DID011,Endocrinology,10,BID0001,Surgery,Private,22366.83,2025-07-09,Negative,2025-06-12,Blood Test,8.33,1,No,4,Hospital 2,West Bengal
+PID0363,AID0363,2025-08-05,2025-07-27,No,46,Female,50504,Cancer,DID010,Endocrinology,1,BID0162,ICU,Private,27196.69,2025-07-18,Negative,2025-06-26,Blood Test,12.7,5,No,2,Hospital 9,Maharashtra
+PID0364,AID0364,2025-07-19,2025-07-03,No,85,Male,37100,Diabetes,DID023,Endocrinology,15,BID0028,Pediatrics,Private,5158.26,2025-07-10,Negative,2025-06-27,MRI,2.53,4,Yes,5,Hospital 4,Delhi
+PID0365,AID0365,2025-07-23,2025-06-29,No,70,Other,58856,Diabetes,DID016,Oncology,14,BID0116,ICU,Public,17624.97,2025-07-30,Negative,2025-07-27,Blood Test,6.38,4,No,5,Hospital 8,Gujarat
+PID0366,AID0366,2025-07-16,2025-06-18,No,69,Male,12273,Cancer,DID019,Cardiology,15,BID0019,ICU,Uninsured,7937.93,2025-07-30,Negative,2025-06-28,CT Scan,13.65,10,Yes,2,Hospital 1,Tamil Nadu
+PID0367,AID0367,2025-08-04,2025-07-08,No,40,Male,50044,Hypertension,DID020,Cardiology,14,BID0152,ICU,Public,6594.8,2025-07-22,Negative,2025-07-30,Ultrasound,3.7,4,No,4,Hospital 6,Maharashtra
+PID0368,AID0368,2025-08-06,2025-07-20,No,74,Other,87755,Flu,DID011,Cardiology,13,BID0012,General,Private,4097.87,2025-07-09,Negative,2025-06-14,CT Scan,2.94,6,No,4,Hospital 4,West Bengal
+PID0369,AID0369,2025-08-01,2025-06-19,Yes,13,Other,79699,Asthma,DID013,Cardiology,1,BID0125,ICU,Public,1353.98,2025-07-09,Negative,2025-07-04,Ultrasound,13.36,7,No,4,Hospital 3,Tamil Nadu
+PID0370,AID0370,2025-07-28,2025-07-09,Yes,35,Other,88803,Hypertension,DID014,Cardiology,3,BID0157,ICU,Uninsured,9820.02,2025-07-11,Negative,2025-07-12,Blood Test,9.59,5,No,1,Hospital 9,Tamil Nadu
+PID0371,AID0371,2025-07-26,2025-07-12,Yes,68,Male,53032,Asthma,DID012,Oncology,9,BID0057,Surgery,Uninsured,33307.03,2025-07-16,Negative,2025-07-13,MRI,2.13,3,No,4,Hospital 8,Tamil Nadu
+PID0372,AID0372,2025-08-05,2025-07-20,Yes,6,Male,00799,Cancer,DID012,Pulmonology,4,BID0112,Pediatrics,Private,31224.15,2025-07-13,Negative,2025-07-09,CT Scan,1.13,1,No,2,Hospital 3,Maharashtra
+PID0373,AID0373,2025-08-04,2025-06-21,No,15,Male,85757,Flu,DID024,Endocrinology,10,BID0149,Pediatrics,Private,10738.82,2025-07-25,Negative,2025-07-21,X-ray,3.84,2,No,1,Hospital 4,Gujarat
+PID0374,AID0374,2025-07-24,2025-07-23,No,26,Female,80318,Flu,DID003,Endocrinology,10,BID0125,ICU,Private,8102.12,2025-07-24,Negative,2025-06-09,CT Scan,3.08,6,No,2,Hospital 6,Karnataka
+PID0375,AID0375,2025-07-20,2025-07-06,No,17,Male,99427,Cancer,DID019,General,5,BID0035,ICU,Private,23470.37,2025-07-13,Negative,2025-06-29,X-ray,3.69,5,No,5,Hospital 3,West Bengal
+PID0376,AID0376,2025-08-01,2025-07-21,No,30,Male,99310,Hypertension,DID028,Oncology,8,BID0056,Surgery,Private,14679.37,2025-07-07,Negative,2025-06-21,MRI,4.09,7,No,5,Hospital 3,West Bengal
+PID0377,AID0377,2025-08-02,2025-07-15,No,54,Male,54711,COVID-19,DID016,Oncology,1,BID0109,Surgery,Private,40676.11,2025-07-12,Negative,2025-06-10,Blood Test,7.06,4,Yes,1,Hospital 7,Tamil Nadu
+PID0378,AID0378,2025-07-11,2025-07-05,Yes,38,Male,88101,Cancer,DID003,General,8,BID0172,Pediatrics,Public,35461.92,2025-07-22,Negative,2025-06-18,Ultrasound,0.85,8,No,2,Hospital 7,Tamil Nadu
+PID0379,AID0379,2025-07-10,2025-07-03,No,48,Other,28890,Hypertension,DID023,General,14,BID0161,ICU,Private,44778.29,2025-07-13,Negative,2025-07-17,Blood Test,4.8,5,No,5,Hospital 9,West Bengal
+PID0380,AID0380,2025-07-04,2025-06-30,No,88,Male,10439,Asthma,DID029,Pulmonology,12,BID0015,Pediatrics,Public,6437.36,2025-07-19,Negative,2025-07-26,Ultrasound,1.09,6,No,5,Hospital 2,West Bengal
+PID0381,AID0381,2025-08-06,2025-07-28,No,27,Male,40328,Diabetes,DID008,Oncology,2,BID0167,Surgery,Uninsured,47018.25,2025-07-17,Negative,2025-07-29,MRI,11.42,4,No,3,Hospital 9,Gujarat
+PID0382,AID0382,2025-08-05,2025-07-30,No,7,Male,70034,Diabetes,DID012,Endocrinology,8,BID0129,ICU,Private,35781.44,2025-07-05,Negative,2025-07-01,Ultrasound,13.54,8,No,1,Hospital 4,Delhi
+PID0383,AID0383,2025-07-24,2025-06-23,Yes,51,Male,85761,Diabetes,DID003,General,3,BID0071,ICU,Uninsured,8249.75,2025-07-24,Negative,2025-07-18,MRI,8.05,1,No,5,Hospital 3,Delhi
+PID0384,AID0384,2025-08-01,2025-07-27,No,57,Other,99742,Cancer,DID001,Pulmonology,4,BID0017,ICU,Public,41912.43,2025-07-04,Negative,2025-07-14,X-ray,6.47,6,No,3,Hospital 8,West Bengal
+PID0385,AID0385,2025-07-31,2025-07-03,No,68,Other,92869,Hypertension,DID015,Pulmonology,10,BID0034,Pediatrics,Public,39674.12,2025-07-30,Negative,2025-06-30,X-ray,14.58,1,No,3,Hospital 8,Tamil Nadu
+PID0386,AID0386,2025-07-28,2025-07-28,No,21,Other,95738,Asthma,DID010,Cardiology,3,BID0182,General,Public,12657.36,2025-07-19,Positive,2025-07-14,X-ray,8.83,8,No,2,Hospital 4,West Bengal
+PID0387,AID0387,2025-07-10,2025-07-09,No,86,Female,70509,Diabetes,DID005,Pulmonology,8,BID0139,General,Uninsured,15776.43,2025-07-04,Negative,2025-06-21,CT Scan,14.0,3,No,3,Hospital 3,Maharashtra
+PID0388,AID0388,2025-07-28,2025-07-11,No,70,Other,20422,Diabetes,DID021,Pulmonology,8,BID0075,General,Uninsured,36698.65,2025-07-23,Negative,2025-06-29,X-ray,10.49,8,No,2,Hospital 9,Maharashtra
+PID0389,AID0389,2025-07-06,2025-06-30,No,52,Other,46843,Flu,DID015,Pulmonology,2,BID0084,ICU,Uninsured,32424.32,2025-07-10,Negative,2025-08-01,MRI,11.83,5,No,1,Hospital 9,Delhi
+PID0390,AID0390,2025-07-30,2025-07-05,No,12,Other,45012,Hypertension,DID007,Endocrinology,6,BID0155,ICU,Uninsured,18692.18,2025-07-10,Negative,2025-07-15,CT Scan,5.86,6,Yes,3,Hospital 6,Karnataka
+PID0391,AID0391,2025-08-02,2025-07-19,No,72,Male,08712,Flu,DID024,Endocrinology,12,BID0107,Surgery,Private,9025.73,2025-07-07,Negative,2025-07-10,CT Scan,11.06,7,No,5,Hospital 10,Maharashtra
+PID0392,AID0392,2025-07-15,2025-06-21,Yes,39,Female,48229,Asthma,DID011,General,15,BID0152,Surgery,Public,1324.32,2025-08-01,Negative,2025-07-06,X-ray,6.51,9,No,5,Hospital 3,Tamil Nadu
+PID0393,AID0393,2025-07-22,2025-06-30,Yes,49,Female,89431,Asthma,DID016,General,14,BID0078,Pediatrics,Private,28404.77,2025-07-08,Negative,2025-07-04,Blood Test,11.97,3,No,4,Hospital 2,Gujarat
+PID0394,AID0394,2025-07-21,2025-06-10,No,37,Female,96655,Flu,DID016,Cardiology,1,BID0031,Pediatrics,Private,49722.31,2025-07-15,Positive,2025-06-29,X-ray,8.93,10,No,3,Hospital 8,Gujarat
+PID0395,AID0395,2025-07-29,2025-06-13,No,48,Other,60327,Cancer,DID019,General,14,BID0067,General,Uninsured,3867.01,2025-07-23,Negative,2025-07-07,MRI,5.68,1,No,4,Hospital 6,Maharashtra
+PID0396,AID0396,2025-08-06,2025-07-22,No,68,Other,53850,COVID-19,DID017,Cardiology,13,BID0161,General,Public,30339.36,2025-07-28,Negative,2025-07-10,X-ray,13.15,5,No,3,Hospital 2,West Bengal
+PID0397,AID0397,2025-07-18,2025-06-16,No,19,Male,51682,Flu,DID017,Pulmonology,6,BID0200,Surgery,Private,17675.34,2025-07-17,Negative,2025-08-02,Blood Test,3.66,9,No,2,Hospital 9,West Bengal
+PID0398,AID0398,2025-07-09,2025-06-18,No,68,Other,08209,Cancer,DID018,General,7,BID0118,ICU,Public,41123.39,2025-07-08,Negative,2025-06-20,CT Scan,5.55,6,No,4,Hospital 10,West Bengal
+PID0399,AID0399,2025-07-24,2025-07-12,No,44,Male,93787,Cancer,DID010,General,12,BID0031,General,Public,42983.95,2025-07-31,Negative,2025-06-25,MRI,4.96,4,No,1,Hospital 7,Gujarat
+PID0400,AID0400,2025-08-07,2025-08-01,No,15,Male,99820,COVID-19,DID025,Endocrinology,13,BID0111,ICU,Public,6283.05,2025-07-13,Negative,2025-06-27,Ultrasound,9.1,8,No,3,Hospital 1,Maharashtra
+PID0401,AID0401,2025-08-04,2025-07-16,No,2,Male,71277,COVID-19,DID030,Oncology,4,BID0151,General,Public,33859.43,2025-07-12,Positive,2025-06-10,MRI,12.76,5,No,3,Hospital 6,Tamil Nadu
+PID0402,AID0402,2025-07-01,2025-06-18,No,79,Male,35835,Asthma,DID019,General,2,BID0149,ICU,Uninsured,11632.91,2025-07-20,Negative,2025-06-12,X-ray,2.99,9,Yes,1,Hospital 4,West Bengal
+PID0403,AID0403,2025-07-24,2025-07-07,No,61,Female,89504,Cancer,DID019,Cardiology,8,BID0173,ICU,Public,41902.37,2025-07-12,Negative,2025-07-18,CT Scan,3.61,4,No,3,Hospital 2,Delhi
+PID0404,AID0404,2025-07-24,2025-07-15,Yes,18,Female,88014,Diabetes,DID023,Pulmonology,9,BID0185,ICU,Public,17077.65,2025-07-18,Negative,2025-07-24,X-ray,7.13,5,No,4,Hospital 4,West Bengal
+PID0405,AID0405,2025-07-27,2025-07-27,No,55,Male,29607,COVID-19,DID029,Endocrinology,11,BID0095,General,Public,49937.44,2025-07-30,Negative,2025-06-19,Blood Test,6.25,9,No,1,Hospital 2,Tamil Nadu
+PID0406,AID0406,2025-07-24,2025-07-16,No,89,Other,12559,COVID-19,DID024,Cardiology,2,BID0094,General,Private,10812.91,2025-07-24,Negative,2025-06-07,CT Scan,2.28,7,No,3,Hospital 10,West Bengal
+PID0407,AID0407,2025-07-27,2025-07-24,No,83,Female,18962,Diabetes,DID016,Oncology,7,BID0125,Pediatrics,Public,38631.98,2025-07-20,Negative,2025-06-14,X-ray,7.6,4,No,2,Hospital 1,Maharashtra
+PID0408,AID0408,2025-07-04,2025-06-26,No,9,Female,43233,Cancer,DID001,Cardiology,7,BID0155,Pediatrics,Public,15834.88,2025-07-28,Negative,2025-07-03,Blood Test,10.09,9,No,4,Hospital 4,Karnataka
+PID0409,AID0409,2025-07-24,2025-07-15,No,63,Other,86165,Diabetes,DID018,Pulmonology,13,BID0139,ICU,Public,49544.87,2025-07-25,Negative,2025-07-10,Blood Test,6.06,6,No,4,Hospital 8,Maharashtra
+PID0410,AID0410,2025-07-13,2025-06-06,Yes,72,Other,11068,Diabetes,DID029,Cardiology,8,BID0111,General,Private,36070.44,2025-07-18,Negative,2025-06-15,Blood Test,8.75,8,No,5,Hospital 10,Delhi
+PID0411,AID0411,2025-07-25,2025-07-18,No,21,Other,72857,COVID-19,DID013,Pulmonology,8,BID0152,Surgery,Uninsured,34147.9,2025-07-07,Negative,2025-07-20,X-ray,5.15,1,No,2,Hospital 6,Karnataka
+PID0412,AID0412,2025-07-06,2025-07-02,No,75,Male,51855,Cancer,DID011,Endocrinology,2,BID0110,Pediatrics,Private,21184.55,2025-07-25,Positive,2025-06-24,MRI,4.09,5,No,1,Hospital 5,Maharashtra
+PID0413,AID0413,2025-08-06,2025-06-20,No,3,Other,12002,Diabetes,DID002,Endocrinology,11,BID0109,Surgery,Private,1999.71,2025-07-18,Negative,2025-06-14,Blood Test,14.79,7,No,3,Hospital 10,Maharashtra
+PID0414,AID0414,2025-08-01,2025-07-31,No,13,Other,81478,Cancer,DID007,Pulmonology,8,BID0129,Pediatrics,Public,31126.57,2025-07-28,Negative,2025-06-29,CT Scan,3.43,2,No,5,Hospital 4,Karnataka
+PID0415,AID0415,2025-07-10,2025-06-25,No,39,Other,03661,Hypertension,DID026,Cardiology,10,BID0191,ICU,Uninsured,42365.16,2025-07-11,Positive,2025-08-01,X-ray,4.46,10,No,4,Hospital 7,Tamil Nadu
+PID0416,AID0416,2025-07-03,2025-06-10,No,10,Other,48864,Diabetes,DID017,Pulmonology,7,BID0170,Pediatrics,Public,21301.4,2025-07-14,Negative,2025-07-20,Ultrasound,7.07,9,No,1,Hospital 9,Tamil Nadu
+PID0417,AID0417,2025-07-29,2025-07-25,No,28,Other,27119,Cancer,DID015,Pulmonology,15,BID0164,Surgery,Uninsured,36604.14,2025-07-04,Positive,2025-07-27,MRI,5.78,3,No,3,Hospital 7,Delhi
+PID0418,AID0418,2025-08-04,2025-06-20,No,9,Other,03800,Flu,DID028,Endocrinology,5,BID0074,General,Private,34655.89,2025-07-08,Negative,2025-06-08,MRI,2.15,4,Yes,3,Hospital 8,Delhi
+PID0419,AID0419,2025-06-29,2025-06-12,No,56,Female,96150,Cancer,DID029,General,4,BID0041,Pediatrics,Public,2427.95,2025-07-07,Negative,2025-06-09,X-ray,10.05,3,No,1,Hospital 8,Maharashtra
+PID0420,AID0420,2025-07-13,2025-07-12,Yes,11,Female,98051,Asthma,DID010,General,15,BID0105,Pediatrics,Uninsured,33214.1,2025-08-02,Positive,2025-06-04,MRI,3.92,10,No,1,Hospital 9,Gujarat
+PID0421,AID0421,2025-07-21,2025-07-04,No,68,Female,32885,Hypertension,DID029,General,4,BID0154,ICU,Private,17135.01,2025-07-13,Negative,2025-08-02,CT Scan,12.18,4,No,2,Hospital 3,Maharashtra
+PID0422,AID0422,2025-07-29,2025-06-29,Yes,36,Female,92206,Hypertension,DID009,Oncology,1,BID0126,Pediatrics,Uninsured,47486.83,2025-07-29,Negative,2025-06-22,CT Scan,7.39,4,No,2,Hospital 6,Delhi
+PID0423,AID0423,2025-08-01,2025-07-19,No,40,Male,00582,Cancer,DID029,Oncology,1,BID0190,ICU,Uninsured,45955.41,2025-07-07,Negative,2025-07-23,X-ray,8.51,5,No,3,Hospital 2,West Bengal
+PID0424,AID0424,2025-06-17,2025-06-17,No,57,Female,27168,COVID-19,DID030,Endocrinology,15,BID0066,Pediatrics,Public,46879.8,2025-07-29,Negative,2025-06-29,X-ray,3.55,3,No,3,Hospital 7,Maharashtra
+PID0425,AID0425,2025-06-30,2025-06-07,No,11,Female,65576,Hypertension,DID024,Endocrinology,15,BID0086,Surgery,Public,41395.64,2025-07-26,Negative,2025-08-02,Ultrasound,1.46,7,No,5,Hospital 6,Delhi
+PID0426,AID0426,2025-07-04,2025-07-04,No,7,Other,01219,Cancer,DID006,Endocrinology,13,BID0165,General,Public,20632.43,2025-07-06,Negative,2025-07-18,X-ray,8.85,2,No,5,Hospital 3,West Bengal
+PID0427,AID0427,2025-08-01,2025-07-23,No,41,Female,18544,Hypertension,DID028,Cardiology,5,BID0045,Pediatrics,Private,10734.52,2025-08-02,Negative,2025-07-28,MRI,6.21,7,No,5,Hospital 4,Maharashtra
+PID0428,AID0428,2025-06-13,2025-06-11,No,72,Other,82852,Asthma,DID021,Cardiology,15,BID0023,Surgery,Public,13827.38,2025-07-08,Negative,2025-06-05,Blood Test,6.32,7,No,2,Hospital 2,Karnataka
+PID0429,AID0429,2025-07-13,2025-07-10,Yes,73,Male,53026,COVID-19,DID023,Oncology,7,BID0198,Surgery,Uninsured,25213.3,2025-07-05,Negative,2025-07-01,MRI,3.26,5,No,4,Hospital 7,Tamil Nadu
+PID0430,AID0430,2025-07-19,2025-07-19,No,27,Other,10404,Flu,DID027,Pulmonology,12,BID0174,General,Private,9838.12,2025-07-26,Negative,2025-07-20,Blood Test,4.71,5,No,4,Hospital 4,Karnataka
+PID0431,AID0431,2025-07-04,2025-06-13,No,83,Female,32010,COVID-19,DID001,Endocrinology,3,BID0083,Surgery,Uninsured,11398.67,2025-07-12,Negative,2025-06-25,CT Scan,11.17,5,Yes,5,Hospital 1,Maharashtra
+PID0432,AID0432,2025-08-07,2025-06-06,No,31,Female,35091,Diabetes,DID020,Oncology,12,BID0192,ICU,Public,13429.19,2025-08-02,Negative,2025-07-25,X-ray,14.67,6,No,5,Hospital 1,West Bengal
+PID0433,AID0433,2025-06-22,2025-06-19,Yes,22,Other,30752,Hypertension,DID030,Pulmonology,15,BID0120,General,Public,16548.55,2025-07-25,Negative,2025-07-15,MRI,4.28,6,Yes,2,Hospital 8,Karnataka
+PID0434,AID0434,2025-08-03,2025-07-07,No,56,Female,20462,Diabetes,DID020,Pulmonology,9,BID0081,Surgery,Public,16461.6,2025-07-17,Negative,2025-06-25,MRI,8.56,8,Yes,2,Hospital 1,Tamil Nadu
+PID0435,AID0435,2025-07-16,2025-06-08,Yes,61,Female,71383,Flu,DID023,Endocrinology,7,BID0030,Surgery,Public,22634.46,2025-07-23,Negative,2025-07-08,Ultrasound,7.54,8,No,2,Hospital 2,Karnataka
+PID0436,AID0436,2025-07-28,2025-07-14,Yes,37,Male,93049,Flu,DID024,Oncology,14,BID0070,General,Uninsured,49902.22,2025-07-26,Positive,2025-06-17,Ultrasound,3.12,2,No,4,Hospital 2,Karnataka
+PID0437,AID0437,2025-08-02,2025-07-04,Yes,88,Other,91567,COVID-19,DID013,Pulmonology,10,BID0028,Pediatrics,Public,2414.85,2025-07-27,Negative,2025-06-15,CT Scan,7.08,5,No,1,Hospital 6,Maharashtra
+PID0438,AID0438,2025-07-27,2025-07-16,No,58,Female,39033,Cancer,DID024,Oncology,3,BID0055,ICU,Uninsured,14864.75,2025-07-31,Negative,2025-07-06,Blood Test,8.43,10,No,4,Hospital 5,Tamil Nadu
+PID0439,AID0439,2025-07-15,2025-06-29,No,52,Male,01282,COVID-19,DID028,Cardiology,3,BID0100,Surgery,Private,32711.23,2025-07-18,Negative,2025-07-06,MRI,2.25,8,No,3,Hospital 10,Tamil Nadu
+PID0440,AID0440,2025-08-04,2025-06-22,No,13,Female,03133,Asthma,DID007,Endocrinology,8,BID0100,Surgery,Private,28589.8,2025-07-25,Negative,2025-07-18,CT Scan,12.26,10,No,4,Hospital 2,Maharashtra
+PID0441,AID0441,2025-08-02,2025-07-28,No,60,Other,84420,Flu,DID021,Cardiology,15,BID0127,ICU,Private,23942.74,2025-07-23,Positive,2025-06-10,CT Scan,4.86,3,No,3,Hospital 4,West Bengal
+PID0442,AID0442,2025-07-16,2025-07-16,No,73,Male,94016,Asthma,DID003,General,9,BID0028,Surgery,Private,5629.73,2025-07-10,Negative,2025-07-27,Ultrasound,12.29,6,No,1,Hospital 9,Maharashtra
+PID0443,AID0443,2025-07-28,2025-07-20,Yes,85,Female,18479,Flu,DID026,Cardiology,14,BID0101,ICU,Public,21396.33,2025-08-02,Negative,2025-07-06,X-ray,9.01,8,No,4,Hospital 10,Karnataka
+PID0444,AID0444,2025-07-27,2025-07-18,No,24,Male,41267,Flu,DID003,Oncology,5,BID0173,ICU,Private,27184.42,2025-08-02,Positive,2025-07-21,Blood Test,0.69,8,No,4,Hospital 10,Gujarat
+PID0445,AID0445,2025-08-07,2025-06-16,No,80,Other,28462,Diabetes,DID023,Endocrinology,13,BID0078,ICU,Public,7620.58,2025-07-07,Negative,2025-06-20,Blood Test,10.59,4,No,2,Hospital 8,Gujarat
+PID0446,AID0446,2025-08-04,2025-07-26,Yes,31,Female,34633,Cancer,DID028,Oncology,4,BID0023,Pediatrics,Private,8260.12,2025-07-10,Negative,2025-07-19,Blood Test,2.91,3,No,4,Hospital 8,Delhi
+PID0447,AID0447,2025-08-05,2025-07-27,Yes,58,Other,24741,Flu,DID007,Pulmonology,10,BID0101,ICU,Private,1385.84,2025-07-29,Negative,2025-06-22,CT Scan,14.7,8,No,5,Hospital 9,Karnataka
+PID0448,AID0448,2025-07-22,2025-06-22,Yes,52,Female,98336,Asthma,DID019,Oncology,15,BID0174,Surgery,Public,36000.23,2025-07-09,Negative,2025-07-26,CT Scan,8.86,9,Yes,4,Hospital 8,Maharashtra
+PID0449,AID0449,2025-08-04,2025-06-13,No,83,Female,31851,Hypertension,DID023,Endocrinology,1,BID0042,Pediatrics,Uninsured,10417.86,2025-07-27,Negative,2025-06-24,MRI,7.86,10,No,3,Hospital 10,Gujarat
+PID0450,AID0450,2025-08-01,2025-07-14,No,17,Female,65924,Cancer,DID023,Endocrinology,7,BID0173,Pediatrics,Private,40188.0,2025-07-24,Negative,2025-07-20,Ultrasound,3.5,2,No,2,Hospital 3,Tamil Nadu
+PID0451,AID0451,2025-07-13,2025-07-07,Yes,63,Male,05228,Hypertension,DID016,Pulmonology,4,BID0054,ICU,Public,18580.55,2025-07-13,Negative,2025-07-13,MRI,3.03,9,Yes,1,Hospital 6,Delhi
+PID0452,AID0452,2025-07-08,2025-07-06,Yes,30,Male,77867,Asthma,DID008,Endocrinology,5,BID0088,Pediatrics,Public,38734.65,2025-07-24,Negative,2025-07-17,MRI,12.87,9,No,1,Hospital 1,Delhi
+PID0453,AID0453,2025-08-05,2025-07-27,No,15,Male,48872,Asthma,DID020,General,14,BID0144,ICU,Uninsured,6165.14,2025-07-21,Negative,2025-06-04,MRI,13.71,3,No,4,Hospital 9,Delhi
+PID0454,AID0454,2025-07-15,2025-07-11,No,13,Male,80155,Cancer,DID012,Pulmonology,14,BID0036,ICU,Public,22516.31,2025-07-15,Negative,2025-07-05,Blood Test,4.06,8,No,5,Hospital 3,Maharashtra
+PID0455,AID0455,2025-07-23,2025-06-25,No,54,Female,76644,Cancer,DID022,Cardiology,3,BID0193,Surgery,Public,7761.72,2025-07-23,Negative,2025-07-17,CT Scan,13.52,9,No,3,Hospital 1,Delhi
+PID0456,AID0456,2025-08-01,2025-06-07,Yes,2,Other,13361,Asthma,DID003,General,6,BID0081,Surgery,Public,22269.54,2025-07-20,Negative,2025-07-19,Blood Test,10.07,3,No,1,Hospital 9,Karnataka
+PID0457,AID0457,2025-06-18,2025-06-14,No,88,Other,27681,Asthma,DID028,Pulmonology,12,BID0191,Pediatrics,Private,1387.21,2025-07-06,Negative,2025-06-21,Ultrasound,9.35,3,No,4,Hospital 4,West Bengal
+PID0458,AID0458,2025-07-30,2025-06-29,No,80,Other,73276,Hypertension,DID023,Pulmonology,15,BID0167,Surgery,Public,44167.76,2025-08-01,Positive,2025-07-17,Ultrasound,5.35,3,No,5,Hospital 5,Tamil Nadu
+PID0459,AID0459,2025-08-03,2025-06-16,Yes,71,Female,87136,Asthma,DID011,Cardiology,1,BID0008,Pediatrics,Public,41779.22,2025-07-27,Negative,2025-06-09,CT Scan,14.81,2,No,3,Hospital 5,Gujarat
+PID0460,AID0460,2025-07-30,2025-07-19,No,16,Male,67092,Cancer,DID004,Endocrinology,5,BID0147,ICU,Private,17610.03,2025-07-29,Negative,2025-07-04,Ultrasound,8.7,9,No,2,Hospital 6,Karnataka
+PID0461,AID0461,2025-07-21,2025-06-24,No,74,Other,64522,Flu,DID023,Endocrinology,9,BID0189,General,Public,17064.5,2025-07-24,Negative,2025-07-27,X-ray,7.09,3,No,4,Hospital 2,Maharashtra
+PID0462,AID0462,2025-08-03,2025-07-08,Yes,17,Female,69532,Flu,DID015,General,6,BID0174,Surgery,Uninsured,28389.45,2025-07-17,Negative,2025-07-22,X-ray,8.97,7,No,4,Hospital 7,Tamil Nadu
+PID0463,AID0463,2025-07-26,2025-07-26,Yes,17,Female,05189,Cancer,DID015,Cardiology,12,BID0132,ICU,Uninsured,11419.48,2025-07-26,Negative,2025-06-10,MRI,14.19,6,No,1,Hospital 10,Delhi
+PID0464,AID0464,2025-07-27,2025-07-16,Yes,48,Other,19261,Diabetes,DID002,Oncology,3,BID0031,Pediatrics,Private,49559.98,2025-07-23,Negative,2025-07-10,CT Scan,0.91,3,No,5,Hospital 7,Maharashtra
+PID0465,AID0465,2025-06-15,2025-06-08,No,40,Female,84669,Flu,DID006,Endocrinology,1,BID0032,Pediatrics,Public,43650.9,2025-07-16,Negative,2025-07-07,Ultrasound,4.99,8,No,4,Hospital 8,Gujarat
+PID0466,AID0466,2025-07-25,2025-07-10,No,17,Male,68562,Asthma,DID021,Endocrinology,13,BID0116,Surgery,Public,43450.93,2025-07-10,Negative,2025-07-01,Ultrasound,10.14,7,No,4,Hospital 6,West Bengal
+PID0467,AID0467,2025-07-20,2025-06-14,Yes,86,Female,97700,Cancer,DID009,General,14,BID0043,ICU,Uninsured,31875.35,2025-07-07,Negative,2025-06-16,X-ray,8.64,2,No,1,Hospital 4,West Bengal
+PID0468,AID0468,2025-08-06,2025-07-27,No,7,Other,58713,Asthma,DID007,Endocrinology,9,BID0005,ICU,Uninsured,46872.91,2025-07-12,Negative,2025-07-31,Blood Test,4.49,4,No,5,Hospital 8,Maharashtra
+PID0469,AID0469,2025-07-23,2025-07-19,No,78,Female,02383,Hypertension,DID019,General,8,BID0006,Pediatrics,Private,9844.89,2025-07-10,Positive,2025-06-11,Ultrasound,5.1,5,Yes,1,Hospital 9,Tamil Nadu
+PID0470,AID0470,2025-07-09,2025-06-08,No,24,Female,75857,COVID-19,DID005,Pulmonology,7,BID0174,General,Public,31109.3,2025-07-12,Negative,2025-07-28,Blood Test,10.84,5,No,3,Hospital 3,Delhi
+PID0471,AID0471,2025-07-19,2025-06-17,No,34,Female,59002,COVID-19,DID002,Cardiology,4,BID0193,General,Private,25922.44,2025-07-11,Negative,2025-07-25,Blood Test,4.4,6,No,4,Hospital 2,Delhi
+PID0472,AID0472,2025-07-28,2025-07-12,Yes,82,Male,17687,COVID-19,DID009,Oncology,10,BID0173,ICU,Public,38385.94,2025-07-17,Negative,2025-06-27,MRI,4.92,7,No,5,Hospital 4,Tamil Nadu
+PID0473,AID0473,2025-07-15,2025-07-12,No,22,Male,07301,Asthma,DID014,Oncology,8,BID0011,ICU,Private,48094.61,2025-07-06,Negative,2025-06-27,MRI,0.51,8,No,3,Hospital 7,Karnataka
+PID0474,AID0474,2025-06-26,2025-06-19,No,28,Other,12476,Asthma,DID010,General,3,BID0190,ICU,Private,5396.04,2025-07-11,Negative,2025-06-10,MRI,11.01,5,No,2,Hospital 10,West Bengal
+PID0475,AID0475,2025-08-06,2025-07-03,No,41,Other,57326,Diabetes,DID021,Pulmonology,13,BID0182,Surgery,Private,13050.49,2025-07-06,Negative,2025-07-08,X-ray,3.55,10,No,2,Hospital 1,West Bengal
+PID0476,AID0476,2025-07-15,2025-07-12,No,2,Other,73807,Flu,DID014,Oncology,15,BID0179,Surgery,Private,27368.44,2025-07-09,Negative,2025-06-24,Blood Test,8.31,8,No,3,Hospital 7,West Bengal
+PID0477,AID0477,2025-07-28,2025-07-19,No,23,Other,34484,COVID-19,DID004,Endocrinology,6,BID0050,Surgery,Public,11854.52,2025-07-09,Positive,2025-07-23,X-ray,10.37,6,No,5,Hospital 5,Gujarat
+PID0478,AID0478,2025-07-29,2025-06-18,No,64,Female,24729,COVID-19,DID009,Endocrinology,15,BID0181,General,Public,10608.25,2025-07-11,Negative,2025-06-20,CT Scan,2.11,5,No,4,Hospital 3,West Bengal
+PID0479,AID0479,2025-07-27,2025-06-26,Yes,73,Other,53166,Cancer,DID020,Oncology,3,BID0017,General,Uninsured,4187.42,2025-07-05,Negative,2025-06-04,Ultrasound,12.9,9,No,3,Hospital 4,Gujarat
+PID0480,AID0480,2025-08-01,2025-07-23,Yes,89,Other,60420,Asthma,DID020,Pulmonology,11,BID0144,Surgery,Public,46956.63,2025-07-24,Negative,2025-06-05,Blood Test,12.88,6,No,4,Hospital 5,Maharashtra
+PID0481,AID0481,2025-06-30,2025-06-11,No,60,Female,73124,Diabetes,DID017,General,15,BID0185,General,Public,14618.72,2025-07-16,Negative,2025-07-30,CT Scan,5.09,7,No,1,Hospital 10,Maharashtra
+PID0482,AID0482,2025-08-06,2025-07-10,No,29,Other,05896,Hypertension,DID003,Cardiology,4,BID0043,Pediatrics,Private,4079.36,2025-07-13,Negative,2025-06-14,Blood Test,7.46,1,No,3,Hospital 5,Tamil Nadu
+PID0483,AID0483,2025-07-02,2025-06-18,Yes,31,Female,84198,COVID-19,DID027,Pulmonology,9,BID0061,ICU,Uninsured,31358.76,2025-07-12,Negative,2025-06-23,CT Scan,8.89,2,No,1,Hospital 7,Karnataka
+PID0484,AID0484,2025-07-03,2025-06-30,No,89,Male,83471,Flu,DID002,Endocrinology,1,BID0078,Surgery,Public,5989.55,2025-07-04,Positive,2025-06-19,Blood Test,4.78,7,No,5,Hospital 7,Tamil Nadu
+PID0485,AID0485,2025-07-13,2025-06-25,No,85,Other,65928,COVID-19,DID015,Endocrinology,8,BID0110,ICU,Private,32895.15,2025-07-06,Negative,2025-07-13,Blood Test,7.08,6,No,1,Hospital 2,Maharashtra
+PID0486,AID0486,2025-06-11,2025-06-08,No,9,Other,50080,Flu,DID029,Oncology,3,BID0164,Pediatrics,Private,21629.34,2025-07-05,Negative,2025-06-26,CT Scan,3.2,3,No,1,Hospital 3,Karnataka
+PID0487,AID0487,2025-08-05,2025-06-27,No,66,Other,13877,Diabetes,DID010,Oncology,15,BID0139,General,Public,24006.66,2025-07-19,Negative,2025-06-22,X-ray,5.85,1,No,2,Hospital 1,Tamil Nadu
+PID0488,AID0488,2025-07-31,2025-06-10,No,72,Male,36070,Hypertension,DID012,Cardiology,4,BID0164,General,Public,17736.04,2025-07-22,Negative,2025-07-09,CT Scan,9.2,6,No,5,Hospital 6,West Bengal
+PID0489,AID0489,2025-07-23,2025-07-20,No,43,Male,49887,COVID-19,DID015,General,8,BID0057,ICU,Uninsured,11928.23,2025-07-26,Negative,2025-07-21,Ultrasound,3.59,8,No,3,Hospital 7,Tamil Nadu
+PID0490,AID0490,2025-08-01,2025-08-01,No,1,Female,43533,COVID-19,DID003,Pulmonology,1,BID0143,ICU,Public,15238.23,2025-07-11,Negative,2025-07-25,Ultrasound,13.73,6,Yes,1,Hospital 4,Tamil Nadu
+PID0491,AID0491,2025-08-05,2025-07-05,No,29,Female,42163,Cancer,DID006,Pulmonology,14,BID0142,General,Public,10603.39,2025-07-19,Negative,2025-06-06,X-ray,13.7,1,No,2,Hospital 7,Gujarat
+PID0492,AID0492,2025-07-28,2025-06-14,No,15,Female,24183,Flu,DID010,Endocrinology,4,BID0095,Pediatrics,Uninsured,9396.63,2025-07-04,Negative,2025-06-08,Ultrasound,13.28,2,No,2,Hospital 4,Tamil Nadu
+PID0493,AID0493,2025-08-06,2025-06-14,No,89,Female,87854,Diabetes,DID020,Endocrinology,11,BID0063,ICU,Uninsured,29778.97,2025-07-17,Negative,2025-06-11,X-ray,11.95,6,No,3,Hospital 3,West Bengal
+PID0494,AID0494,2025-07-01,2025-06-24,No,63,Male,22914,Cancer,DID003,Endocrinology,13,BID0170,ICU,Public,25922.08,2025-07-19,Negative,2025-06-08,Ultrasound,5.93,9,No,3,Hospital 6,West Bengal
+PID0495,AID0495,2025-06-24,2025-06-11,No,64,Female,96650,Diabetes,DID019,Endocrinology,11,BID0150,ICU,Public,11756.79,2025-08-01,Negative,2025-07-25,MRI,6.24,5,No,4,Hospital 10,Tamil Nadu
+PID0496,AID0496,2025-07-28,2025-07-19,No,48,Female,16160,Asthma,DID003,Cardiology,13,BID0022,Pediatrics,Private,26422.22,2025-07-11,Negative,2025-07-05,Blood Test,7.25,10,No,4,Hospital 8,Delhi
+PID0497,AID0497,2025-08-02,2025-07-25,No,64,Female,72010,Diabetes,DID013,General,3,BID0114,General,Private,32622.39,2025-07-30,Negative,2025-06-24,Blood Test,4.77,9,No,1,Hospital 5,Tamil Nadu
+PID0498,AID0498,2025-07-07,2025-06-19,Yes,10,Female,13047,COVID-19,DID018,Cardiology,6,BID0051,Pediatrics,Private,15833.06,2025-07-04,Negative,2025-07-10,X-ray,3.26,10,No,5,Hospital 5,Maharashtra
+PID0499,AID0499,2025-07-11,2025-06-21,No,37,Female,90578,Hypertension,DID013,Oncology,13,BID0168,ICU,Private,33050.46,2025-07-27,Negative,2025-06-25,MRI,13.05,4,No,2,Hospital 8,Tamil Nadu
+PID0500,AID0500,2025-08-06,2025-07-29,No,71,Female,35976,Cancer,DID027,Endocrinology,6,BID0022,Pediatrics,Public,22010.86,2025-07-04,Negative,2025-06-20,CT Scan,3.54,8,No,1,Hospital 6,Tamil Nadu
